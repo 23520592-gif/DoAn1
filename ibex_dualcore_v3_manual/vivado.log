@@ -1,0 +1,405 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Jun 23 08:36:36 2026
+# Process ID         : 24640
+# Current directory  : E:/DoAn1/ibex_dualcore_v3_manual
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent11388 E:\DoAn1\ibex_dualcore_v3_manual\ibex_dualcore_v3_manual.xpr
+# Log file           : E:/DoAn1/ibex_dualcore_v3_manual/vivado.log
+# Journal file       : E:/DoAn1/ibex_dualcore_v3_manual\vivado.jou
+# Running On         : HuLuz
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13620H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 16788 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 33968 MB
+# Available Virtual  : 21477 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.1\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kc705\1.6\board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.7 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kc705\1.7\board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.4\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.5\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu1500\1.2\board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:scu35:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\scu35\1.0\board.xml as part xcsu35p-sbvb625-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:v80:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\v80\1.0\board.xml as part xcv80-lsva4737-2mhp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.4\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.5 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.5\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc709\1.8\board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\2.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.4\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.6\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.0\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.3\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.4\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu1525\1.3\board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.0\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.1\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.1\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385_1:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385_2\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_mpsoc\1.0\board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_rfsoc\1.0\board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.0\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.1\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\2.2\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.0\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.1\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.2\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.3\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180_newl\production\1.0\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180_newl\production\1.1\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.0\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.1\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.2\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.0\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.1\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.0\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.1\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zc702\1.4\board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zc706\1.4\board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.5 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zc706\1.5\board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu102\3.3\board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu102\3.4\board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu104\1.1\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu106\2.4\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu106\2.5\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu106\2.6\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.2\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.3\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.4\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1275\1.0\board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1285\1.0\board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208\production\2.0\board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216\production\2.0\board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.1\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kc705\1.6\board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.7 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kc705\1.7\board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.4\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.5\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu1500\1.2\board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:scu35:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\scu35\1.0\board.xml as part xcsu35p-sbvb625-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:v80:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\v80\1.0\board.xml as part xcv80-lsva4737-2mhp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.4\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.5 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.5\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc709\1.8\board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\2.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.4\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Vivado/2025.2/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 1670.316 ; gain = 181.176
+update_compile_order -fileset sources_1
+cd E:/DoAn1
+exec cmd /c run_b5.bat
+========== BUOC 1: COMPILE (xvlog) ==========
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_secded_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_ram_1p_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex_coherence_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim_generic/rtl/prim_generic_ram_1p.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prim_generic_ram_1p
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/prim_buf.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prim_buf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/prim_clock_gating.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prim_clock_gating
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_branch_predict.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_branch_predict
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_compressed_decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_compressed_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_cs_registers.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_cs_registers
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_csr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_csr
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_dummy_instr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_dummy_instr
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_ex_block.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_ex_block
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_fetch_fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_fetch_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_icache.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_icache
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_id_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_id_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_if_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_if_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_load_store_unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_load_store_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_multdiv_fast.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_multdiv_fast
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_multdiv_slow.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_multdiv_slow
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_pmp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_pmp
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_prefetch_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_prefetch_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_register_file_ff.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_register_file_ff
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_wb_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_wb_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex_l1_cache.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_l1_dcache
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex_directory_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_directory_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex_cache_bank_crossbar.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_cache_bank_crossbar
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex_coh_subsystem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_coh_subsystem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex_dualcore_top_v3.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_dualcore_top_v3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex_dualcore_v3_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_dualcore_v3_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/Vivado/2025.2/data/verilog/src/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+========== BUOC 2: ELABORATE (xelab) ==========
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: G:/Vivado/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe --relax --debug typical --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot v3_snap xil_defaultlib.ibex_dualcore_v3_tb xil_defaultlib.glbl 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_pkg.sv" Line 9. Module ibex_pkg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_ram_1p_pkg.sv" Line 6. Module prim_ram_1p_pkg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex_coherence_pkg.sv" Line 19. Module ibex_coherence_pkg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex_dualcore_top_v3.sv" Line 27. Module ibex_dualcore_top_v3(RegFile=RegFileFF_ibex_pkg) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_top.sv" Line 15. Module ibex_top(RV32M=RV32MFast_ibex_pkg,RV32B=RV32BNone_ibex_pkg,RegFile=RegFileFF_ibex_pkg) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/prim_clock_gating.sv" Line 1. Module prim_clock_gating doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/prim_buf.sv" Line 1. Module prim_buf(Width=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/prim_buf.sv" Line 1. Module prim_buf(Width=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/prim_buf.sv" Line 1. Module prim_buf(Width=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_core.sv" Line 16. Module ibex_core(PMPRstCfg='{'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},_________'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0}},PMPRstAddr='{34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0},PMPRstMsecCfg='{1'b0,1'b0,1'b0},RV32M=RV32MFast_ibex_pkg,RV32B=RV32BNone_ibex_pkg,BusSizeECC=32'b0100000,TagSizeECC=32'b010110,LineSizeECC=32'b01000000,RndCnstLfsrSeed=32'b10101100010100110011101111110100,RndCnstLfsrPerm=160'b01111000110101111011001011101001000110011111111101000110110001001011101001010110000001010100101100000001001111101001000011100001111000101010001101101011101101,MemDataWidth=32'b0100000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_if_stage.sv" Line 16. Module ibex_if_stage(BusSizeECC=32'b0100000,TagSizeECC=32'b010110,LineSizeECC=32'b01000000,RndCnstLfsrSeed=32'b10101100010100110011101111110100,RndCnstLfsrPerm=160'b01111000110101111011001011101001000110011111111101000110110001001011101001010110000001010100101100000001001111101001000011100001111000101010001101101011101101,MemDataWidth=32'b0100000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_prefetch_buffer.sv" Line 12. Module ibex_prefetch_buffer_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_fetch_fifo.sv" Line 15. Module ibex_fetch_fifo_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_compressed_decoder.sv" Line 16. Module ibex_compressed_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_id_stage.sv" Line 20. Module ibex_id_stage(RV32M=RV32MFast_ibex_pkg,RV32B=RV32BNone_ibex_pkg) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_decoder.sv" Line 16. Module ibex_decoder(RV32M=RV32MFast_ibex_pkg,RV32B=RV32BNone_ibex_pkg) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [E:/DoAn1/ibex/rtl/ibex_decoder.sv:142]
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_controller.sv" Line 13. Module ibex_controller_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_ex_block.sv" Line 11. Module ibex_ex_block(RV32M=RV32MFast_ibex_pkg,RV32B=RV32BNone_ibex_pkg) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_alu.sv" Line 9. Module ibex_alu(RV32B=RV32BNone_ibex_pkg) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_multdiv_fast.sv" Line 17. Module ibex_multdiv_fast(RV32M=RV32MFast_ibex_pkg) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_load_store_unit.sv" Line 17. Module ibex_load_store_unit(MemDataWidth=32'b0100000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_wb_stage.sv" Line 17. Module ibex_wb_stage_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_cs_registers.sv" Line 12. Module ibex_cs_registers(MHPMCounterNum=32'b0,PMPRstCfg='{'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},_________'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0}},PMPRstAddr='{34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0},PMPRstMsecCfg='{1'b0,1'b0,1'b0},RV32M=RV32MFast_ibex_pkg,RV32B=RV32BNone_ibex_pkg) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(Width=32'b0110,ResetValue=6'b010000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(ResetValue=32'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(Width=32'b010010,ResetValue=18'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(ResetValue=32'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(Width=32'b0111,ResetValue=7'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(ResetValue=32'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(ResetValue=32'b01) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(ResetValue=32'b01000000000000000000000000000011) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(ResetValue=32'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(ResetValue=32'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(ResetValue=32'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(Width=32'b011,ResetValue=3'b100) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(ResetValue=32'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(Width=32'b0111,ResetValue=7'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_counter.sv" Line 5. Module ibex_counter(CounterWidth=64) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_counter.sv" Line 5. Module ibex_counter(CounterWidth=64,ProvideValUpd=1'b1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(Width=32'b01000,ResetValue=8'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_register_file_ff.sv" Line 13. Module ibex_register_file_ff(WordZeroVal=32'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_top.sv" Line 15. Module ibex_top(RV32M=RV32MFast_ibex_pkg,RV32B=RV32BNone_ibex_pkg,RegFile=RegFileFF_ibex_pkg) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/prim_clock_gating.sv" Line 1. Module prim_clock_gating doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/prim_buf.sv" Line 1. Module prim_buf(Width=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/prim_buf.sv" Line 1. Module prim_buf(Width=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/prim_buf.sv" Line 1. Module prim_buf(Width=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_core.sv" Line 16. Module ibex_core(PMPRstCfg='{'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},_________'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0}},PMPRstAddr='{34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0},PMPRstMsecCfg='{1'b0,1'b0,1'b0},RV32M=RV32MFast_ibex_pkg,RV32B=RV32BNone_ibex_pkg,BusSizeECC=32'b0100000,TagSizeECC=32'b010110,LineSizeECC=32'b01000000,RndCnstLfsrSeed=32'b10101100010100110011101111110100,RndCnstLfsrPerm=160'b01111000110101111011001011101001000110011111111101000110110001001011101001010110000001010100101100000001001111101001000011100001111000101010001101101011101101,MemDataWidth=32'b0100000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_if_stage.sv" Line 16. Module ibex_if_stage(BusSizeECC=32'b0100000,TagSizeECC=32'b010110,LineSizeECC=32'b01000000,RndCnstLfsrSeed=32'b10101100010100110011101111110100,RndCnstLfsrPerm=160'b01111000110101111011001011101001000110011111111101000110110001001011101001010110000001010100101100000001001111101001000011100001111000101010001101101011101101,MemDataWidth=32'b0100000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_prefetch_buffer.sv" Line 12. Module ibex_prefetch_buffer_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_fetch_fifo.sv" Line 15. Module ibex_fetch_fifo_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_compressed_decoder.sv" Line 16. Module ibex_compressed_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_id_stage.sv" Line 20. Module ibex_id_stage(RV32M=RV32MFast_ibex_pkg,RV32B=RV32BNone_ibex_pkg) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_decoder.sv" Line 16. Module ibex_decoder(RV32M=RV32MFast_ibex_pkg,RV32B=RV32BNone_ibex_pkg) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_controller.sv" Line 13. Module ibex_controller_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_ex_block.sv" Line 11. Module ibex_ex_block(RV32M=RV32MFast_ibex_pkg,RV32B=RV32BNone_ibex_pkg) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_alu.sv" Line 9. Module ibex_alu(RV32B=RV32BNone_ibex_pkg) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_multdiv_fast.sv" Line 17. Module ibex_multdiv_fast(RV32M=RV32MFast_ibex_pkg) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_load_store_unit.sv" Line 17. Module ibex_load_store_unit(MemDataWidth=32'b0100000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_wb_stage.sv" Line 17. Module ibex_wb_stage_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_cs_registers.sv" Line 12. Module ibex_cs_registers(MHPMCounterNum=32'b0,PMPRstCfg='{'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0},_________'{1'b0,ibex_pkg::PMP_MODE_OFF,1'b0,1'b0,1'b0}},PMPRstAddr='{34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0,34'b0},PMPRstMsecCfg='{1'b0,1'b0,1'b0},RV32M=RV32MFast_ibex_pkg,RV32B=RV32BNone_ibex_pkg) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(Width=32'b0110,ResetValue=6'b010000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(ResetValue=32'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(Width=32'b010010,ResetValue=18'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(ResetValue=32'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(Width=32'b0111,ResetValue=7'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(ResetValue=32'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(ResetValue=32'b01) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(ResetValue=32'b01000000000000000000000000000011) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(ResetValue=32'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(ResetValue=32'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(ResetValue=32'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(Width=32'b011,ResetValue=3'b100) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(ResetValue=32'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(Width=32'b0111,ResetValue=7'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_counter.sv" Line 5. Module ibex_counter(CounterWidth=64) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_counter.sv" Line 5. Module ibex_counter(CounterWidth=64,ProvideValUpd=1'b1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_csr.sv" Line 11. Module ibex_csr(Width=32'b01000,ResetValue=8'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex/rtl/ibex_register_file_ff.sv" Line 13. Module ibex_register_file_ff(WordZeroVal=32'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex_coh_subsystem.sv" Line 10. Module ibex_coh_subsystem_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex_l1_cache.sv" Line 10. Module ibex_l1_dcache_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex_l1_cache.sv" Line 10. Module ibex_l1_dcache_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex_directory_controller.sv" Line 10. Module ibex_directory_controller_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex_cache_bank_crossbar.sv" Line 11. Module ibex_cache_bank_crossbar_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.ibex_pkg
+Compiling package xil_defaultlib.prim_ram_1p_pkg
+Compiling package xil_defaultlib.ibex_coherence_pkg
+Compiling module xil_defaultlib.prim_clock_gating
+Compiling module xil_defaultlib.prim_buf(Width=4)
+Compiling module xil_defaultlib.prim_buf(Width=32)
+Compiling module xil_defaultlib.ibex_fetch_fifo_default
+Compiling module xil_defaultlib.ibex_prefetch_buffer_default
+Compiling module xil_defaultlib.ibex_compressed_decoder
+Compiling module xil_defaultlib.ibex_if_stage(BusSizeECC=32'b010...
+Compiling module xil_defaultlib.ibex_decoder(RV32M=RV32MFast_ibe...
+Compiling module xil_defaultlib.ibex_controller_default
+Compiling module xil_defaultlib.ibex_id_stage(RV32M=RV32MFast_ib...
+Compiling module xil_defaultlib.ibex_alu(RV32B=RV32BNone_ibex_pk...
+Compiling module xil_defaultlib.ibex_multdiv_fast(RV32M=RV32MFas...
+Compiling module xil_defaultlib.ibex_ex_block(RV32M=RV32MFast_ib...
+Compiling module xil_defaultlib.ibex_load_store_unit(MemDataWidt...
+Compiling module xil_defaultlib.ibex_wb_stage_default
+Compiling module xil_defaultlib.ibex_csr(Width=32'b0110,ResetVal...
+Compiling module xil_defaultlib.ibex_csr(ResetValue=32'b0)
+Compiling module xil_defaultlib.ibex_csr(Width=32'b010010,ResetV...
+Compiling module xil_defaultlib.ibex_csr(Width=32'b0111,ResetVal...
+Compiling module xil_defaultlib.ibex_csr(ResetValue=32'b01)
+Compiling module xil_defaultlib.ibex_csr(ResetValue=32'b01000000...
+Compiling module xil_defaultlib.ibex_csr(Width=32'b011,ResetValu...
+Compiling module xil_defaultlib.ibex_counter(CounterWidth=64)
+Compiling module xil_defaultlib.ibex_counter(CounterWidth=64,Pro...
+Compiling module xil_defaultlib.ibex_csr(Width=32'b01000,ResetVa...
+Compiling module xil_defaultlib.ibex_cs_registers(MHPMCounterNum...
+Compiling module xil_defaultlib.ibex_core(PMPRstCfg='{'{1'b0,ibe...
+Compiling module xil_defaultlib.ibex_register_file_ff(WordZeroVa...
+Compiling module xil_defaultlib.ibex_top(RV32M=RV32MFast_ibex_pk...
+Compiling module xil_defaultlib.ibex_l1_dcache_default
+Compiling module xil_defaultlib.ibex_directory_controller_defaul...
+Compiling module xil_defaultlib.ibex_cache_bank_crossbar_default
+Compiling module xil_defaultlib.ibex_coh_subsystem_default
+Compiling module xil_defaultlib.ibex_dualcore_top_v3(RegFile=Reg...
+Compiling module xil_defaultlib.ibex_dualcore_v3_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot v3_snap
+========== BUOC 3: SIMULATE (xsim) ==========
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Tue Jun 23 09:16:08 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+start_gui
+INFO: [Common 17-206] Exiting xsim at Tue Jun 23 11:30:51 2026...
+========== XONG ==========
+launch_runs synth_1 -jobs 8
+WARNING: [HDL 9-3756] overwriting previous definition of module 'ibex_cache_bank_crossbar' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_cache_bank_crossbar.sv:11]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'ibex_coh_subsystem' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_coh_subsystem.sv:10]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'ibex_directory_controller' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_directory_controller.sv:10]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'ibex_dualcore_top_v3' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_dualcore_top_v3.sv:27]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'ibex_l1_dcache' [E:/DoAn1/ibex_l1_cache.sv:10]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'prim_generic_ram_1p' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/vendor/lowrisc_ip/ip/prim_generic/rtl/prim_generic_ram_1p.sv:9]
+WARNING: [filemgmt 20-736] The current top specification, "ibex_dualcore_top_v3", does not uniquely identify a single design element. Using "ibex_dualcore_top_v3" (Library: xil_defaultlib, File: E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_dualcore_top_v3.sv).
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'ibex_cache_bank_crossbar()' found in library 'xil_defaultlib'
+Duplicate found at line 11 of file E:/DoAn1/ibex_cache_bank_crossbar.sv
+	(Active) Duplicate found at line 11 of file E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_cache_bank_crossbar.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'ibex_coh_subsystem()' found in library 'xil_defaultlib'
+Duplicate found at line 10 of file E:/DoAn1/ibex_coh_subsystem.sv
+	(Active) Duplicate found at line 10 of file E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_coh_subsystem.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'ibex_directory_controller()' found in library 'xil_defaultlib'
+Duplicate found at line 10 of file E:/DoAn1/ibex_directory_controller.sv
+	(Active) Duplicate found at line 10 of file E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_directory_controller.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'ibex_dualcore_top_v3()' found in library 'xil_defaultlib'
+Duplicate found at line 27 of file E:/DoAn1/ibex_dualcore_top_v3.sv
+	(Active) Duplicate found at line 27 of file E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_dualcore_top_v3.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'ibex_l1_dcache()' found in library 'xil_defaultlib'
+Duplicate found at line 10 of file E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_l1_cache.sv
+	(Active) Duplicate found at line 10 of file E:/DoAn1/ibex_l1_cache.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'prim_generic_ram_1p()' found in library 'xil_defaultlib'
+Duplicate found at line 9 of file E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim_generic/rtl/prim_generic_ram_1p.sv
+	(Active) Duplicate found at line 9 of file E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/vendor/lowrisc_ip/ip/prim_generic/rtl/prim_generic_ram_1p.sv
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Tue Jun 23 11:32:05 2026] Launched synth_1...
+Run output will be captured here: E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcsg324-1
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1865.648 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 34 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2025.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1967.406 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 2375.504 ; gain = 660.242
+report_utilization -hierarchical_min_primitive_count 50 -name utilization_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 23 11:54:00 2026...

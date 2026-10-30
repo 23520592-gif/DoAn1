@@ -1,0 +1,49 @@
+# ====== PACKAGES (compile TRUOC) ======
+sv xil_defaultlib E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_pkg.sv
+sv xil_defaultlib E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_secded_pkg.sv
+sv xil_defaultlib E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_ram_1p_pkg.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_pkg.sv
+sv xil_defaultlib E:/DoAn1/ibex_coherence_pkg.sv
+
+# ====== PRIM ======
+sv xil_defaultlib E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim_generic/rtl/prim_generic_ram_1p.sv
+sv xil_defaultlib E:/DoAn1/prim_buf.sv
+sv xil_defaultlib E:/DoAn1/prim_clock_gating.sv
+
+# ====== IBEX CORE ======
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_alu.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_branch_predict.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_compressed_decoder.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_controller.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_core.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_counter.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_cs_registers.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_csr.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_decoder.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_dummy_instr.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_ex_block.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_fetch_fifo.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_icache.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_id_stage.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_if_stage.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_load_store_unit.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_multdiv_fast.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_multdiv_slow.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_pmp.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_prefetch_buffer.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_register_file_ff.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_top.sv
+sv xil_defaultlib E:/DoAn1/ibex/rtl/ibex_wb_stage.sv
+
+# ====== COHERENCE SUBSYSTEM (B3: cache + directory + CROSSBAR) ======
+sv xil_defaultlib E:/DoAn1/ibex_l1_cache.sv
+sv xil_defaultlib E:/DoAn1/ibex_directory_controller.sv
+sv xil_defaultlib E:/DoAn1/ibex_cache_bank_crossbar.sv
+sv xil_defaultlib E:/DoAn1/ibex_coh_subsystem.sv
+sv xil_defaultlib E:/DoAn1/ibex_dualcore_top_v3.sv
+
+# ====== TESTBENCH ======
+sv xil_defaultlib E:/DoAn1/ibex_dualcore_v3_tb.sv
+
+# ====== glbl ======
+verilog xil_defaultlib "G:/Vivado/2025.2/Vivado/data/verilog/src/glbl.v"

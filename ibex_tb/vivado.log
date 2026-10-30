@@ -1,0 +1,1047 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sun May 17 13:35:50 2026
+# Process ID         : 25352
+# Current directory  : E:/DoAn1/ibex_tb
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent25876 E:\DoAn1\ibex_tb\ibex_tb.xpr
+# Log file           : E:/DoAn1/ibex_tb/vivado.log
+# Journal file       : E:/DoAn1/ibex_tb\vivado.jou
+# Running On         : HuLuz
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13620H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 16788 MB
+# Swap memory        : 10111 MB
+# Total Virtual      : 26900 MB
+# Available Virtual  : 14578 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/DoAn1/ibex_tb/ibex_tb.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.1\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kc705\1.6\board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.7 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kc705\1.7\board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.4\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.5\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu1500\1.2\board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:scu35:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\scu35\1.0\board.xml as part xcsu35p-sbvb625-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:v80:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\v80\1.0\board.xml as part xcv80-lsva4737-2mhp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.4\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.5 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.5\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc709\1.8\board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\2.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.4\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.6\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.0\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.3\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.4\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu1525\1.3\board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.0\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.1\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.1\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385_1:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385_2\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_mpsoc\1.0\board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_rfsoc\1.0\board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.0\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.1\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\2.2\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.0\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.1\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.2\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.3\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180_newl\production\1.0\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180_newl\production\1.1\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.0\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.1\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.2\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.0\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.1\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.0\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.1\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zc702\1.4\board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zc706\1.4\board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.5 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zc706\1.5\board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu102\3.3\board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu102\3.4\board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu104\1.1\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu106\2.4\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu106\2.5\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu106\2.6\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.2\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.3\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.4\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1275\1.0\board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1285\1.0\board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208\production\2.0\board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216\production\2.0\board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/DoAn1/ibex_tb/ibex_tb.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.1\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kc705\1.6\board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.7 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kc705\1.7\board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.4\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.5\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu1500\1.2\board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:scu35:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\scu35\1.0\board.xml as part xcsu35p-sbvb625-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:v80:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\v80\1.0\board.xml as part xcv80-lsva4737-2mhp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.4\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.5 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.5\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc709\1.8\board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\2.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.4\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Vivado/2025.2/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:10 . Memory (MB): peak = 1680.629 ; gain = 250.051
+updatINFO: [Common 17-206] Exiting Vivadlaunch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun May 17 13:36:30 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'ibex_top_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/DoAn1/ibex_tb/ibex_tb.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'G:/Vivado/2025.2/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ibex_top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/DoAn1/ibex_tb/ibex_tb.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj ibex_top_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/DoAn1/ibex_tb/ibex_tb.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot ibex_top_tb_behav xil_defaultlib.ibex_top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: G:/Vivado/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot ibex_top_tb_behav xil_defaultlib.ibex_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'fetch_enable_i' [E:/DoAn1/ibex_alu_tb.sv:226]
+WARNING: [VRFC 10-3823] variable 'data_wdata_intg' might have multiple concurrent drivers [E:/DoAn1/ibex_alu_tb.sv:212]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/DoAn1/ibex_tb/ibex_tb.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ibex_top_tb_behav -key {Behavioral:sim_1:Functional:ibex_top_tb} -tclbatch {ibex_top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ibex_top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+========================================
+  Ibex ALU Test Simulation
+========================================
+  Operations: ADD, SUB, AND, OR, XOR
+              SLL, SRL, SLT, SLTU, LUI
+  x1=10, x2=20
+========================================
+t=110000 | PC=0xxxxxxxxx | A=0x00000000 | B=0xxxxxxxxx | Result=0x00000001
+t=170000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=190000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=210000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=230000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=250000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=270000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=290000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=310000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=330000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=350000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=370000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=390000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=410000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=430000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=450000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=470000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=490000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=510000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=530000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=550000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=570000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=590000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=610000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=630000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=650000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=670000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=690000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=710000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=730000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=750000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=770000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=790000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=810000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=830000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=850000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=870000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=890000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=910000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=930000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=950000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=970000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=990000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ibex_top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1709.348 ; gain = 17.883
+open_wave_config E:/DoAn1/ibex_tb/ibex_waves.wcfg
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 5us
+========================================
+  Ibex ALU Test Simulation
+========================================
+  Operations: ADD, SUB, AND, OR, XOR
+              SLL, SRL, SLT, SLTU, LUI
+  x1=10, x2=20
+========================================
+t=110000 | PC=0xxxxxxxxx | A=0x00000000 | B=0xxxxxxxxx | Result=0x00000001
+t=170000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=190000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=210000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=230000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=250000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=270000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=290000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=310000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=330000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=350000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=370000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=390000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=410000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=430000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=450000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=470000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=490000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=510000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=530000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=550000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=570000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=590000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=610000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=630000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=650000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=670000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=690000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=710000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=730000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=750000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=770000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=790000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=810000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=830000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=850000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=870000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=890000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=910000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=930000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=950000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=970000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=990000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=1010000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=1030000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=1050000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=1070000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=1090000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=1110000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=1130000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=1150000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=1170000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=1190000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=1210000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=1230000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=1250000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=1270000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=1290000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=1310000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=1330000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=1350000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=1370000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=1390000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=1410000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=1430000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=1450000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=1470000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=1490000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=1510000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=1530000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=1550000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=1570000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=1590000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=1610000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=1630000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=1650000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=1670000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=1690000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=1710000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=1730000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=1750000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=1770000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=1790000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=1810000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=1830000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=1850000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=1870000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=1890000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=1910000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=1930000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=1950000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=1970000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=1990000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=2010000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=2030000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=2050000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=2070000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=2090000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=2110000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=2130000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=2150000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=2170000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=2190000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=2210000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=2230000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=2250000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=2270000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=2290000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=2310000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=2330000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=2350000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=2370000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=2390000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=2410000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=2430000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=2450000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=2470000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=2490000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=2510000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=2530000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=2550000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=2570000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=2590000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=2610000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=2630000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=2650000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=2670000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=2690000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=2710000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=2730000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=2750000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=2770000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=2790000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=2810000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=2830000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=2850000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=2870000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=2890000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=2910000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=2930000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=2950000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=2970000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=2990000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=3010000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=3030000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=3050000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=3070000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=3090000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=3110000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=3130000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=3150000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=3170000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=3190000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=3210000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=3230000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=3250000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=3270000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=3290000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=3310000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=3330000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=3350000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=3370000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=3390000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=3410000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=3430000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=3450000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=3470000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=3490000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=3510000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=3530000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=3550000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=3570000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=3590000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=3610000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=3630000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=3650000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=3670000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=3690000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=3710000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=3730000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=3750000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=3770000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=3790000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=3810000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=3830000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=3850000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=3870000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=3890000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=3910000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=3930000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=3950000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=3970000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=3990000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=4010000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=4030000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=4050000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=4070000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=4090000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=4110000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=4130000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=4150000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=4170000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=4190000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=4210000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=4230000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=4250000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=4270000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=4290000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=4310000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=4330000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=4350000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=4370000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=4390000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=4410000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=4430000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=4450000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=4470000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=4490000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=4510000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=4530000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=4550000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=4570000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=4590000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=4610000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=4630000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=4650000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=4670000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=4690000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=4710000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=4730000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=4750000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=4770000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=4790000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=4810000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=4830000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=4850000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=4870000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=4890000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=4910000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=4930000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=4950000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=4970000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=4990000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+save_wave_config {E:/DoAn1/ibex_tb/ibex_waves.wcfg}
+open_wave_config E:/DoAn1/ibex_tb/ibex_waves.wcfg
+save_wave_config E:/DoAn1/ibex_tb/singlecore_waves.wcfg
+singlecore_waves.wcfg
+write_vcd E:/DoAn1/ibex_tb/singlecore_sim.vcd
+invalid command name "write_vcd"
+open_vcd E:/DoAn1/ibex_tb/singlecore_sim.vcd
+log_vcd [get_objects -r /*]
+INFO: HDL object /ibex_top_tb/instr_mem is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/data_mem is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/ic_tag_rdata is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/ic_data_rdata is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/PMPRstCfg is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/PMPRstAddr is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/ic_tag_rdata_i is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/ic_data_rdata_i is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/imd_val_d_ex is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/imd_val_q_ex is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/csr_pmp_addr is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/csr_pmp_cfg is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/pmp_req_err is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/\g_no_pmp.unused_csr_pmp_addr  is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/\g_no_pmp.unused_csr_pmp_cfg  is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/PMPRstCfg is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/PMPRstAddr is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/if_stage_i/ic_tag_rdata_i is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/if_stage_i/ic_data_rdata_i is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/if_stage_i/\gen_prefetch_buffer.unused_tag_ram_input  is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/if_stage_i/\gen_prefetch_buffer.unused_data_ram_input  is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/id_stage_i/imd_val_d_ex_i is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/id_stage_i/imd_val_q_ex_o is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/id_stage_i/imd_val_q is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/ex_block_i/imd_val_d_o is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/ex_block_i/imd_val_q_i is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/ex_block_i/alu_imd_val_q is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/ex_block_i/alu_imd_val_d is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/ex_block_i/multdiv_imd_val_d is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/ex_block_i/alu_i/imd_val_q_i is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/ex_block_i/alu_i/imd_val_d_o is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/ex_block_i/alu_i/\g_no_alu_rvb.unused_imd_val_q  is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/ex_block_i/gen_multdiv_fast.multdiv_i/imd_val_q_i is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/ex_block_i/gen_multdiv_fast.multdiv_i/imd_val_d_o is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/wb_stage_i/rf_wdata_wb_mux is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/cs_registers_i/csr_pmp_cfg_o is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/cs_registers_i/csr_pmp_addr_o is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/cs_registers_i/pmp_addr_rdata is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/cs_registers_i/pmp_cfg_rdata is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/cs_registers_i/mhpmcounter is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/cs_registers_i/mhpmevent is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/cs_registers_i/PMPRstCfg is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/u_ibex_core/cs_registers_i/PMPRstAddr is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /ibex_top_tb/u_ibex_top/gen_regfile_ff.register_file_i/rf_reg is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+run 10us
+t=5010000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=5030000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=5050000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=5070000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=5090000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=5110000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=5130000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=5150000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=5170000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=5190000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=5210000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=5230000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=5250000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=5270000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=5290000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=5310000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=5330000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=5350000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=5370000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=5390000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=5410000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=5430000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=5450000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=5470000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=5490000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=5510000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=5530000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=5550000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=5570000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=5590000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=5610000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=5630000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=5650000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=5670000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=5690000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=5710000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=5730000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=5750000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=5770000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=5790000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=5810000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=5830000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=5850000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=5870000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=5890000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=5910000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=5930000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=5950000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=5970000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=5990000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=6010000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=6030000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=6050000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=6070000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=6090000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=6110000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=6130000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=6150000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=6170000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=6190000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=6210000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=6230000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=6250000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=6270000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=6290000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=6310000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=6330000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=6350000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=6370000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=6390000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=6410000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=6430000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=6450000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=6470000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=6490000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=6510000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=6530000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=6550000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=6570000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=6590000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=6610000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=6630000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=6650000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=6670000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=6690000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=6710000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=6730000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=6750000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=6770000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=6790000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=6810000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=6830000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=6850000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=6870000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=6890000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=6910000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=6930000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=6950000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=6970000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=6990000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=7010000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=7030000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=7050000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=7070000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=7090000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=7110000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=7130000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=7150000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=7170000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=7190000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=7210000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=7230000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=7250000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=7270000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=7290000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=7310000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=7330000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=7350000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=7370000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=7390000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=7410000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=7430000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=7450000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=7470000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=7490000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=7510000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=7530000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=7550000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=7570000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=7590000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=7610000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=7630000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=7650000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=7670000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=7690000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=7710000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=7730000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=7750000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=7770000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=7790000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=7810000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=7830000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=7850000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=7870000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=7890000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=7910000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=7930000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=7950000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=7970000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=7990000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=8010000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=8030000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=8050000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=8070000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=8090000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=8110000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=8130000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=8150000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=8170000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=8190000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=8210000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=8230000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=8250000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=8270000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=8290000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=8310000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=8330000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=8350000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=8370000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=8390000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=8410000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=8430000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=8450000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=8470000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=8490000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=8510000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=8530000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=8550000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=8570000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=8590000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=8610000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=8630000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=8650000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=8670000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=8690000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=8710000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=8730000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=8750000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=8770000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=8790000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=8810000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=8830000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=8850000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=8870000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=8890000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=8910000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=8930000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=8950000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=8970000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=8990000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=9010000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=9030000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=9050000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=9070000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=9090000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=9110000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=9130000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=9150000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=9170000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=9190000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=9210000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=9230000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=9250000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=9270000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=9290000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=9310000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=9330000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=9350000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=9370000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=9390000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=9410000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=9430000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=9450000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=9470000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=9490000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=9510000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=9530000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=9550000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=9570000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=9590000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=9610000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=9630000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=9650000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=9670000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=9690000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=9710000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=9730000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=9750000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=9770000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=9790000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=9810000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=9830000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=9850000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=9870000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=9890000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=9910000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=9930000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=9950000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=9970000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=9990000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=10010000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=10030000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=10050000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=10070000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=10090000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=10110000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=10130000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=10150000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=10170000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=10190000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=10210000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=10230000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=10250000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=10270000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=10290000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=10310000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=10330000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=10350000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=10370000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=10390000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=10410000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=10430000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=10450000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=10470000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=10490000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=10510000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=10530000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=10550000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=10570000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=10590000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=10610000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=10630000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=10650000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=10670000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=10690000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=10710000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=10730000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=10750000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=10770000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=10790000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=10810000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=10830000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=10850000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=10870000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=10890000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=10910000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=10930000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=10950000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=10970000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=10990000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=11010000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=11030000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=11050000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=11070000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=11090000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=11110000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=11130000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=11150000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=11170000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=11190000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=11210000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=11230000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=11250000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=11270000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=11290000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=11310000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=11330000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=11350000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=11370000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=11390000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=11410000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=11430000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=11450000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=11470000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=11490000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=11510000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=11530000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=11550000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=11570000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=11590000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=11610000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=11630000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=11650000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=11670000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=11690000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=11710000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=11730000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=11750000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=11770000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=11790000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=11810000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=11830000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=11850000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=11870000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=11890000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=11910000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=11930000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=11950000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=11970000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=11990000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=12010000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=12030000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=12050000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=12070000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=12090000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=12110000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=12130000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=12150000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=12170000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=12190000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=12210000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=12230000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=12250000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=12270000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=12290000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=12310000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=12330000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=12350000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=12370000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=12390000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=12410000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=12430000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=12450000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=12470000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=12490000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=12510000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=12530000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=12550000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=12570000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=12590000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=12610000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=12630000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=12650000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=12670000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=12690000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=12710000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=12730000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=12750000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=12770000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=12790000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=12810000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=12830000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=12850000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=12870000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=12890000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=12910000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=12930000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=12950000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=12970000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=12990000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=13010000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=13030000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=13050000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=13070000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=13090000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=13110000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=13130000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=13150000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=13170000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=13190000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=13210000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=13230000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=13250000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=13270000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=13290000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=13310000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=13330000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=13350000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=13370000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=13390000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=13410000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=13430000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=13450000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=13470000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=13490000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=13510000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=13530000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=13550000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=13570000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=13590000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=13610000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=13630000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=13650000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=13670000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=13690000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=13710000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=13730000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=13750000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=13770000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=13790000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=13810000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=13830000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=13850000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=13870000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=13890000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=13910000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=13930000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=13950000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=13970000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=13990000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=14010000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=14030000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=14050000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=14070000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=14090000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=14110000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=14130000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=14150000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=14170000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=14190000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=14210000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=14230000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=14250000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=14270000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=14290000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=14310000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=14330000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=14350000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=14370000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=14390000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=14410000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=14430000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=14450000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=14470000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=14490000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=14510000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=14530000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=14550000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=14570000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=14590000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=14610000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=14630000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+t=14650000 | PC=0x00000090 | A=0x0000000a | B=0x00000014 | Result=0x00000000
+t=14670000 | PC=0x00000094 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=14690000 | PC=0x00000098 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=14710000 | PC=0x0000009c | A=0x0000000a | B=0x00000014 | Result=0x00a00000
+t=14730000 | PC=0x000000a0 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=14750000 | PC=0x000000a4 | A=0x0000000a | B=0x00000014 | Result=0x00000001
+t=14770000 | PC=0x000000a8 | A=0x00000014 | B=0x0000000a | Result=0x00000000
+t=14790000 | PC=0x000000ac | A=0x00000000 | B=0xabcde000 | Result=0xabcde000
+t=14810000 | PC=0x000000b0 | A=0xabcde000 | B=0x00000123 | Result=0xabcde123
+t=14830000 | PC=0x000000b4 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=14850000 | PC=0x000000b8 | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=14870000 | PC=0x000000bc | A=0x000000bc | B=0xffffffc0 | Result=0x0000007c
+t=14890000 | PC=0x000000bc | A=0x000000bc | B=0x00000004 | Result=0x000000c0
+t=14910000 | PC=0x0000007c | A=0x00000000 | B=0x00000000 | Result=0x00000000
+t=14930000 | PC=0x00000080 | A=0x00000000 | B=0x0000000a | Result=0x0000000a
+t=14950000 | PC=0x00000084 | A=0x00000000 | B=0x00000014 | Result=0x00000014
+t=14970000 | PC=0x00000088 | A=0x0000000a | B=0x00000014 | Result=0x0000001e
+t=14990000 | PC=0x0000008c | A=0x00000014 | B=0x0000000a | Result=0x0000000a
+close_vcd
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May 17 15:10:09 2026...

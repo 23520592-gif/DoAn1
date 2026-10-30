@@ -1,0 +1,17 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: G:/Vivado/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot ibex_lockstep_behav xil_defaultlib.ibex_lockstep xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <prim_count> not found while processing module instance <u_rst_shadow_cnt> [E:/DoAn1/ibex/rtl/ibex_lockstep.sv:140]
+ERROR: [VRFC 10-2063] Module <prim_flop> not found while processing module instance <u_prim_rst_shadow_set_flop> [E:/DoAn1/ibex/rtl/ibex_lockstep.sv:170]
+WARNING: [VRFC 10-2832] instantiating unknown module prim_flop [E:/DoAn1/ibex/rtl/ibex_lockstep.sv:180]
+ERROR: [VRFC 10-2063] Module <prim_clock_mux2> not found while processing module instance <u_prim_rst_shadow_n_mux2> [E:/DoAn1/ibex/rtl/ibex_lockstep.sv:190]
+ERROR: [VRFC 10-2063] Module <ibex_if_stage> not found while processing module instance <if_stage_i> [E:/DoAn1/ibex/rtl/ibex_core.sv:421]
+ERROR: [VRFC 10-2063] Module <ibex_id_stage> not found while processing module instance <id_stage_i> [E:/DoAn1/ibex/rtl/ibex_core.sv:545]
+ERROR: [VRFC 10-2063] Module <ibex_load_store_unit> not found while processing module instance <load_store_unit_i> [E:/DoAn1/ibex/rtl/ibex_core.sv:764]
+ERROR: [VRFC 10-2063] Module <ibex_wb_stage> not found while processing module instance <wb_stage_i> [E:/DoAn1/ibex/rtl/ibex_core.sv:815]
+ERROR: [VRFC 10-2063] Module <ibex_cs_registers> not found while processing module instance <cs_registers_i> [E:/DoAn1/ibex/rtl/ibex_core.sv:1051]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

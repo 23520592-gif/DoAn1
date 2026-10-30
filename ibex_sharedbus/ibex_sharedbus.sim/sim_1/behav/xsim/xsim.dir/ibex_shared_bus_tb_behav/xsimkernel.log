@@ -1,0 +1,7 @@
+Running: xsim.dir/ibex_shared_bus_tb_behav/xsimk.exe -simmode gui -wdb ibex_shared_bus_tb_behav.wdb -simrunnum 0 -socket 50516
+Design successfully loaded
+Design Loading Memory Usage: 13000 KB (Peak: 13000 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 45532 KB (Peak: 45532 KB)
+Simulation CPU Usage: 2390 ms

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="v3_snap.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ibex_coherence_pkg" />
+            <top_module name="ibex_dualcore_v3_tb" />
+            <top_module name="ibex_pkg" />
+            <top_module name="prim_ram_1p_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="29.951 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="155"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/ibex_dualcore_v3_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_dualcore_v3_tb/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_dualcore_v3_tb/core0_fetch_enable" type="array">
+      <obj_property name="ElementShortName">core0_fetch_enable[3:0]</obj_property>
+      <obj_property name="ObjectShortName">core0_fetch_enable[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_dualcore_v3_tb/core1_fetch_enable" type="array">
+      <obj_property name="ElementShortName">core1_fetch_enable[3:0]</obj_property>
+      <obj_property name="ObjectShortName">core1_fetch_enable[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_dualcore_v3_tb/u_dut/core0_instr_req" type="logic">
+      <obj_property name="ElementShortName">core0_instr_req</obj_property>
+      <obj_property name="ObjectShortName">core0_instr_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_dualcore_v3_tb/u_dut/core0_instr_addr" type="array">
+      <obj_property name="ElementShortName">core0_instr_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">core0_instr_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_dualcore_v3_tb/u_dut/core0_instr_rdata" type="array">
+      <obj_property name="ElementShortName">core0_instr_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">core0_instr_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_dualcore_v3_tb/u_dut/core1_instr_req" type="logic">
+      <obj_property name="ElementShortName">core1_instr_req</obj_property>
+      <obj_property name="ObjectShortName">core1_instr_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_dualcore_v3_tb/u_dut/core1_instr_addr" type="array">
+      <obj_property name="ElementShortName">core1_instr_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">core1_instr_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_dualcore_v3_tb/u_dut/core1_instr_rdata" type="array">
+      <obj_property name="ElementShortName">core1_instr_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">core1_instr_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_dualcore_v3_tb/u_dut/u_coh/core_req_i" type="array">
+      <obj_property name="ElementShortName">core_req_i[1:0]</obj_property>
+      <obj_property name="ObjectShortName">core_req_i[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_dualcore_v3_tb/u_dut/u_coh/core_gnt_o" type="array">
+      <obj_property name="ElementShortName">core_gnt_o[1:0]</obj_property>
+      <obj_property name="ObjectShortName">core_gnt_o[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_dualcore_v3_tb/u_dut/u_coh/core_addr_i" type="array">
+      <obj_property name="ElementShortName">core_addr_i[0:1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">core_addr_i[0:1][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_dualcore_v3_tb/u_dut/u_coh/core_we_i" type="array">
+      <obj_property name="ElementShortName">core_we_i[1:0]</obj_property>
+      <obj_property name="ObjectShortName">core_we_i[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_dualcore_v3_tb/u_dut/u_coh/core_wdata_i" type="array">
+      <obj_property name="ElementShortName">core_wdata_i[0:1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">core_wdata_i[0:1][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_dualcore_v3_tb/u_dut/u_coh/core_rvalid_o" type="array">
+      <obj_property name="ElementShortName">core_rvalid_o[1:0]</obj_property>
+      <obj_property name="ObjectShortName">core_rvalid_o[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_dualcore_v3_tb/u_dut/u_coh/core_rdata_o" type="array">
+      <obj_property name="ElementShortName">core_rdata_o[0:1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">core_rdata_o[0:1][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_dualcore_v3_tb/u_dut/u_coh/\g_cache[0].u_l1 /state_q" type="array">
+      <obj_property name="ElementShortName">state_q[0:15][1:0]</obj_property>
+      <obj_property name="ObjectShortName">state_q[0:15][1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_dualcore_v3_tb/u_dut/u_coh/\g_cache[0].u_l1 /data_q" type="array">
+      <obj_property name="ElementShortName">data_q[0:15][127:0]</obj_property>
+      <obj_property name="ObjectShortName">data_q[0:15][127:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_dualcore_v3_tb/u_dut/u_coh/u_xbar/bank_mem_q" type="array">
+      <obj_property name="ElementShortName">bank_mem_q[0:1][0:127][127:0]</obj_property>
+      <obj_property name="ObjectShortName">bank_mem_q[0:1][0:127][127:0]</obj_property>
+   </wvobject>
+</wave_config>

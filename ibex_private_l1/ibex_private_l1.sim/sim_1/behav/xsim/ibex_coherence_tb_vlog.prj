@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "G:/Vivado/2025.2/Vivado/data/rsb/busdef" \
+"../../../../ibex_private_l1.srcs/sources_1/imports/DoAn1/ibex_coherence_pkg.sv" \
+"../../../../ibex_private_l1.srcs/sources_1/imports/DoAn1/ibex_coh_subsystem.sv" \
+"../../../../ibex_private_l1.srcs/sources_1/imports/DoAn1/ibex_directory_controller.sv" \
+"../../../../ibex_private_l1.srcs/sources_1/imports/DoAn1/ibex_l1_cache.sv" \
+"../../../../ibex_private_l1.srcs/sim_1/imports/DoAn1/ibex_coherence_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

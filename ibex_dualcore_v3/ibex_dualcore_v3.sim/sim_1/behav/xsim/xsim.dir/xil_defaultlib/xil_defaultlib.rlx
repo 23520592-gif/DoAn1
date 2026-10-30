@@ -1,0 +1,17 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+E:/DoAn1/ibex/rtl/ibex_alu.sv,1749532936,systemVerilog,,E:/DoAn1/ibex/rtl/ibex_core.sv,,ibex_alu,,uvm,../../../../../ibex/rtl;../../../../../ibex/vendor/lowrisc_ip/dv/sv/dv_utils;../../../../../ibex/vendor/lowrisc_ip/ip/prim/rtl;../../../../../ibex/vendor/lowrisc_ip/ip/prim_generic/rtl;G:/Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/DoAn1/ibex/rtl/ibex_core.sv,1749532936,systemVerilog,,E:/DoAn1/ibex/rtl/ibex_ex_block.sv,E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_assert.sv;E:/DoAn1/ibex/vendor/lowrisc_ip/dv/sv/dv_utils/dv_fcov_macros.svh,ibex_core,,uvm,../../../../../ibex/rtl;../../../../../ibex/vendor/lowrisc_ip/dv/sv/dv_utils;../../../../../ibex/vendor/lowrisc_ip/ip/prim/rtl;../../../../../ibex/vendor/lowrisc_ip/ip/prim_generic/rtl;G:/Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/DoAn1/ibex/rtl/ibex_ex_block.sv,1749532936,systemVerilog,,E:/DoAn1/ibex/rtl/ibex_multdiv_fast.sv,,ibex_ex_block,,uvm,../../../../../ibex/rtl;../../../../../ibex/vendor/lowrisc_ip/dv/sv/dv_utils;../../../../../ibex/vendor/lowrisc_ip/ip/prim/rtl;../../../../../ibex/vendor/lowrisc_ip/ip/prim_generic/rtl;G:/Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/DoAn1/ibex/rtl/ibex_lockstep.sv,1749532936,systemVerilog,,,,ibex_lockstep,,uvm,../../../../../ibex/rtl;../../../../../ibex/vendor/lowrisc_ip/dv/sv/dv_utils;../../../../../ibex/vendor/lowrisc_ip/ip/prim/rtl;../../../../../ibex/vendor/lowrisc_ip/ip/prim_generic/rtl;G:/Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/DoAn1/ibex/rtl/ibex_multdiv_fast.sv,1749532936,systemVerilog,,E:/DoAn1/prim_buf.sv,E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_assert.sv,ibex_multdiv_fast,,uvm,../../../../../ibex/rtl;../../../../../ibex/vendor/lowrisc_ip/dv/sv/dv_utils;../../../../../ibex/vendor/lowrisc_ip/ip/prim/rtl;../../../../../ibex/vendor/lowrisc_ip/ip/prim_generic/rtl;G:/Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/DoAn1/ibex/rtl/ibex_pkg.sv,1749532936,systemVerilog,E:/DoAn1/ibex/rtl/ibex_alu.sv;E:/DoAn1/ibex/rtl/ibex_core.sv;E:/DoAn1/ibex/rtl/ibex_ex_block.sv;E:/DoAn1/ibex/rtl/ibex_lockstep.sv;E:/DoAn1/ibex/rtl/ibex_multdiv_fast.sv,E:/DoAn1/ibex/rtl/ibex_alu.sv,,ibex_pkg,,uvm,../../../../../ibex/rtl;../../../../../ibex/vendor/lowrisc_ip/dv/sv/dv_utils;../../../../../ibex/vendor/lowrisc_ip/ip/prim/rtl;../../../../../ibex/vendor/lowrisc_ip/ip/prim_generic/rtl;G:/Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/DoAn1/ibex/vendor/lowrisc_ip/dv/sv/dv_utils/dv_fcov_macros.svh,1749532936,verilog,,,,,,,,,,,,
+E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_assert.sv,1749532936,verilog,,,E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_assert_standard_macros.svh;E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_assert_sec_cm.svh;E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_flop_macros.sv,,,,,,,,,
+E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_assert_sec_cm.svh,1749532936,verilog,,,,,,,,,,,,
+E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_assert_standard_macros.svh,1749532936,verilog,,,,,,,,,,,,
+E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_flop_macros.sv,1749532936,verilog,,,,,,,,,,,,
+E:/DoAn1/ibex_dualcore_v3/ibex_dualcore_v3.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,uvm,,,,,,
+E:/DoAn1/prim_buf.sv,1779035497,systemVerilog,,E:/DoAn1/ibex/rtl/ibex_lockstep.sv,,prim_buf,,uvm,../../../../../ibex/rtl;../../../../../ibex/vendor/lowrisc_ip/dv/sv/dv_utils;../../../../../ibex/vendor/lowrisc_ip/ip/prim/rtl;../../../../../ibex/vendor/lowrisc_ip/ip/prim_generic/rtl;G:/Vivado/2025.2/Vivado/data/rsb/busdef,,,,,

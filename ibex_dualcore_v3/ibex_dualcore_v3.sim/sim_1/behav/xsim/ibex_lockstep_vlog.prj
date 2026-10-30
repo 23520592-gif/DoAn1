@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  -i "../../../../../ibex/rtl" -i "../../../../../ibex/vendor/lowrisc_ip/ip/prim/rtl" -i "../../../../../ibex/vendor/lowrisc_ip/ip/prim_generic/rtl" -i "../../../../../ibex/vendor/lowrisc_ip/dv/sv/dv_utils" --include "G:/Vivado/2025.2/Vivado/data/rsb/busdef" \
+"../../../../../ibex/rtl/ibex_pkg.sv" \
+"../../../../../ibex/rtl/ibex_alu.sv" \
+"../../../../../ibex/rtl/ibex_core.sv" \
+"../../../../../ibex/rtl/ibex_ex_block.sv" \
+"../../../../../ibex/rtl/ibex_multdiv_fast.sv" \
+"../../../../../prim_buf.sv" \
+"../../../../../ibex/rtl/ibex_lockstep.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

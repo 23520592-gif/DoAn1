@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Jun 23 08:36:36 2026
+# Process ID         : 24640
+# Current directory  : E:/DoAn1/ibex_dualcore_v3_manual
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent11388 E:\DoAn1\ibex_dualcore_v3_manual\ibex_dualcore_v3_manual.xpr
+# Log file           : E:/DoAn1/ibex_dualcore_v3_manual/vivado.log
+# Journal file       : E:/DoAn1/ibex_dualcore_v3_manual\vivado.jou
+# Running On         : HuLuz
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13620H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 16788 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 33968 MB
+# Available Virtual  : 21477 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.xpr
+update_compile_order -fileset sources_1
+cd E:/DoAn1
+exec cmd /c run_b5.bat
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+report_utilization -hierarchical_min_primitive_count 50 -name utilization_1

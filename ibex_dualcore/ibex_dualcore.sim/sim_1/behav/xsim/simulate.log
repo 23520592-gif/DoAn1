@@ -1,0 +1,18 @@
+Time resolution is 1 ps
+============================================
+  Dual-Core Ibex Shared Memory Simulation
+============================================
+  Core 0 boot: 0x00000000
+  Core 1 boot: 0x00010000
+  Shared base: 0x00020000
+--------------------------------------------
+  Core 0 → WRITE 0xDEAD0000 to SHARED[0]
+  Core 0 → READ  SHARED[1]
+  Core 1 → WRITE 0xCAFE0000 to SHARED[1]
+  Core 1 → READ  SHARED[0]
+============================================
+t=0 ns | WRITE | Core1 | 0x00020004 ← 0xfe0000ca
+t=0 ns | *** CONTENTION *** Core0 & Core1 → Winner=Core1
+t=0 ns | [PASS] Core1 wrote 0xfe0000ca → SHARED[1]
+t=0 ns | WRITE | Core0 | 0x00020000 ← 0xdead0000
+t=0 ns | [PASS] Core0 wrote 0xdead0000 → SHARED[0]

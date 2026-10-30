@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sun Jun 21 17:34:16 2026
+# Process ID         : 15316
+# Current directory  : E:/DoAn1
+# Command line       : xsim.exe -source {xsim.dir/v3_snap/xsim_script.tcl}
+# Log file           : E:/DoAn1/xsim.log
+# Journal file       : E:/DoAn1\xsim.jou
+# Running On         : HuLuz
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13620H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 16788 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 33968 MB
+# Available Virtual  : 11099 MB
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/v3_snap/xsim_script.tcl
+add_wave {{/ibex_dualcore_v3_tb/clk}} {{/ibex_dualcore_v3_tb/rst_n}} {{/ibex_dualcore_v3_tb/core0_fetch_enable}} {{/ibex_dualcore_v3_tb/core1_fetch_enable}} 
+current_wave_config {Untitled 1}
+add_wave {{/ibex_dualcore_v3_tb/u_dut/core0_instr_req}} {{/ibex_dualcore_v3_tb/u_dut/core0_instr_addr}} {{/ibex_dualcore_v3_tb/u_dut/core0_instr_rdata}} {{/ibex_dualcore_v3_tb/u_dut/core1_instr_req}} {{/ibex_dualcore_v3_tb/u_dut/core1_instr_addr}} {{/ibex_dualcore_v3_tb/u_dut/core1_instr_rdata}} 
+current_wave_config {Untitled 1}
+add_wave {{/ibex_dualcore_v3_tb/u_dut/u_coh/core_req_i}} {{/ibex_dualcore_v3_tb/u_dut/u_coh/core_gnt_o}} {{/ibex_dualcore_v3_tb/u_dut/u_coh/core_addr_i}} {{/ibex_dualcore_v3_tb/u_dut/u_coh/core_we_i}} {{/ibex_dualcore_v3_tb/u_dut/u_coh/core_wdata_i}} {{/ibex_dualcore_v3_tb/u_dut/u_coh/core_rvalid_o}} {{/ibex_dualcore_v3_tb/u_dut/u_coh/core_rdata_o}} 
+run all
+save_wave_config E:/DoAn1/ibex_dualcore_v3_manual/ibex_v3.wcfg
+current_wave_config {ibex_v3.wcfg}
+add_wave {{/ibex_dualcore_v3_tb/u_dut/u_coh/\g_cache[0].u_l1 /state_q}} 
+current_wave_config {ibex_v3.wcfg}
+add_wave {{/ibex_dualcore_v3_tb/u_dut/u_coh/\g_cache[0].u_l1 /data_q}} 
+current_wave_config {ibex_v3.wcfg}
+add_wave {{/ibex_dualcore_v3_tb/u_dut/u_coh/u_xbar/bank_mem_q}} 
+run all
+restart
+run all
+save_wave_config {E:/DoAn1/ibex_dualcore_v3_manual/ibex_v3.wcfg}
+close_sim

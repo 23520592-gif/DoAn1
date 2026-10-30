@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ibex_top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ibex_pkg" />
+            <top_module name="ibex_top_tb" />
+            <top_module name="prim_ram_1p_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="443.874 ns"></ZoomEndTime>
+      <Cursor1Time time="170.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="155"></NameColumnWidth>
+      <ValueColumnWidth column_width="215"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="41" />
+   <wvobject fp_name="/ibex_top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/instr_mem" type="array">
+      <obj_property name="ElementShortName">instr_mem[0:255][31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_mem[0:255][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/instr_req" type="logic">
+      <obj_property name="ElementShortName">instr_req</obj_property>
+      <obj_property name="ObjectShortName">instr_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/instr_gnt" type="logic">
+      <obj_property name="ElementShortName">instr_gnt</obj_property>
+      <obj_property name="ObjectShortName">instr_gnt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/instr_rvalid" type="logic">
+      <obj_property name="ElementShortName">instr_rvalid</obj_property>
+      <obj_property name="ObjectShortName">instr_rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/instr_addr" type="array">
+      <obj_property name="ElementShortName">instr_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/instr_rdata" type="array">
+      <obj_property name="ElementShortName">instr_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/instr_rdata_intg" type="array">
+      <obj_property name="ElementShortName">instr_rdata_intg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_rdata_intg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/instr_err" type="logic">
+      <obj_property name="ElementShortName">instr_err</obj_property>
+      <obj_property name="ObjectShortName">instr_err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/data_req" type="logic">
+      <obj_property name="ElementShortName">data_req</obj_property>
+      <obj_property name="ObjectShortName">data_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/data_gnt" type="logic">
+      <obj_property name="ElementShortName">data_gnt</obj_property>
+      <obj_property name="ObjectShortName">data_gnt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/data_rvalid" type="logic">
+      <obj_property name="ElementShortName">data_rvalid</obj_property>
+      <obj_property name="ObjectShortName">data_rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/data_we" type="logic">
+      <obj_property name="ElementShortName">data_we</obj_property>
+      <obj_property name="ObjectShortName">data_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/data_be" type="array">
+      <obj_property name="ElementShortName">data_be[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data_be[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/data_addr" type="array">
+      <obj_property name="ElementShortName">data_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/data_wdata" type="array">
+      <obj_property name="ElementShortName">data_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/data_wdata_intg" type="array">
+      <obj_property name="ElementShortName">data_wdata_intg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">data_wdata_intg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/data_rdata" type="array">
+      <obj_property name="ElementShortName">data_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/data_rdata_intg" type="array">
+      <obj_property name="ElementShortName">data_rdata_intg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rdata_intg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/data_err" type="logic">
+      <obj_property name="ElementShortName">data_err</obj_property>
+      <obj_property name="ObjectShortName">data_err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/irq_software" type="logic">
+      <obj_property name="ElementShortName">irq_software</obj_property>
+      <obj_property name="ObjectShortName">irq_software</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/irq_timer" type="logic">
+      <obj_property name="ElementShortName">irq_timer</obj_property>
+      <obj_property name="ObjectShortName">irq_timer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/irq_external" type="logic">
+      <obj_property name="ElementShortName">irq_external</obj_property>
+      <obj_property name="ObjectShortName">irq_external</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/irq_fast" type="array">
+      <obj_property name="ElementShortName">irq_fast[14:0]</obj_property>
+      <obj_property name="ObjectShortName">irq_fast[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/irq_nm" type="logic">
+      <obj_property name="ElementShortName">irq_nm</obj_property>
+      <obj_property name="ObjectShortName">irq_nm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/debug_req" type="logic">
+      <obj_property name="ElementShortName">debug_req</obj_property>
+      <obj_property name="ObjectShortName">debug_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/fetch_enable" type="logic">
+      <obj_property name="ElementShortName">fetch_enable</obj_property>
+      <obj_property name="ObjectShortName">fetch_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/alert_minor" type="logic">
+      <obj_property name="ElementShortName">alert_minor</obj_property>
+      <obj_property name="ObjectShortName">alert_minor</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/alert_major_internal" type="logic">
+      <obj_property name="ElementShortName">alert_major_internal</obj_property>
+      <obj_property name="ObjectShortName">alert_major_internal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/alert_major_bus" type="logic">
+      <obj_property name="ElementShortName">alert_major_bus</obj_property>
+      <obj_property name="ObjectShortName">alert_major_bus</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/core_sleep" type="logic">
+      <obj_property name="ElementShortName">core_sleep</obj_property>
+      <obj_property name="ObjectShortName">core_sleep</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/scan_rst_n" type="logic">
+      <obj_property name="ElementShortName">scan_rst_n</obj_property>
+      <obj_property name="ObjectShortName">scan_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/data_mem" type="array">
+      <obj_property name="ElementShortName">data_mem[0:255][31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem[0:255][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/u_ibex_top/u_ibex_core/ex_block_i/alu_i/operator_i" type="array">
+      <obj_property name="ElementShortName">operator_i[6:0]</obj_property>
+      <obj_property name="ObjectShortName">operator_i[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/alu_op_a" type="array">
+      <obj_property name="ElementShortName">alu_op_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_op_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/alu_op_b" type="array">
+      <obj_property name="ElementShortName">alu_op_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_op_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/alu_result" type="array">
+      <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/pc_id" type="array">
+      <obj_property name="ElementShortName">pc_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_id[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/prev_result" type="array">
+      <obj_property name="ElementShortName">prev_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">prev_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_top_tb/prev_pc" type="array">
+      <obj_property name="ElementShortName">prev_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">prev_pc[31:0]</obj_property>
+   </wvobject>
+</wave_config>

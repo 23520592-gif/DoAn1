@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ibex_shared_bus_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ibex_pkg" />
+            <top_module name="ibex_shared_bus_tb" />
+            <top_module name="prim_ram_1p_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="499,885.333 ns"></ZoomStartTime>
+      <ZoomEndTime time="499,913.534 ns"></ZoomEndTime>
+      <Cursor1Time time="500,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="252"></NameColumnWidth>
+      <ValueColumnWidth column_width="240"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="67" />
+   <wvobject fp_name="/ibex_shared_bus_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core0_irq_software" type="logic">
+      <obj_property name="ElementShortName">core0_irq_software</obj_property>
+      <obj_property name="ObjectShortName">core0_irq_software</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core0_irq_timer" type="logic">
+      <obj_property name="ElementShortName">core0_irq_timer</obj_property>
+      <obj_property name="ObjectShortName">core0_irq_timer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core0_irq_external" type="logic">
+      <obj_property name="ElementShortName">core0_irq_external</obj_property>
+      <obj_property name="ObjectShortName">core0_irq_external</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core0_irq_fast" type="array">
+      <obj_property name="ElementShortName">core0_irq_fast[14:0]</obj_property>
+      <obj_property name="ObjectShortName">core0_irq_fast[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core0_irq_nm" type="logic">
+      <obj_property name="ElementShortName">core0_irq_nm</obj_property>
+      <obj_property name="ObjectShortName">core0_irq_nm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core0_debug_req" type="logic">
+      <obj_property name="ElementShortName">core0_debug_req</obj_property>
+      <obj_property name="ObjectShortName">core0_debug_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core0_fetch_enable" type="array">
+      <obj_property name="ElementShortName">core0_fetch_enable[3:0]</obj_property>
+      <obj_property name="ObjectShortName">core0_fetch_enable[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core0_alert_minor" type="logic">
+      <obj_property name="ElementShortName">core0_alert_minor</obj_property>
+      <obj_property name="ObjectShortName">core0_alert_minor</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core0_alert_major_internal" type="logic">
+      <obj_property name="ElementShortName">core0_alert_major_internal</obj_property>
+      <obj_property name="ObjectShortName">core0_alert_major_internal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core0_alert_major_bus" type="logic">
+      <obj_property name="ElementShortName">core0_alert_major_bus</obj_property>
+      <obj_property name="ObjectShortName">core0_alert_major_bus</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core0_core_sleep" type="logic">
+      <obj_property name="ElementShortName">core0_core_sleep</obj_property>
+      <obj_property name="ObjectShortName">core0_core_sleep</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core0_crash_dump" type="array">
+      <obj_property name="ElementShortName">core0_crash_dump</obj_property>
+      <obj_property name="ObjectShortName">core0_crash_dump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core0_double_fault" type="logic">
+      <obj_property name="ElementShortName">core0_double_fault</obj_property>
+      <obj_property name="ObjectShortName">core0_double_fault</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core1_irq_software" type="logic">
+      <obj_property name="ElementShortName">core1_irq_software</obj_property>
+      <obj_property name="ObjectShortName">core1_irq_software</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core1_irq_timer" type="logic">
+      <obj_property name="ElementShortName">core1_irq_timer</obj_property>
+      <obj_property name="ObjectShortName">core1_irq_timer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core1_irq_external" type="logic">
+      <obj_property name="ElementShortName">core1_irq_external</obj_property>
+      <obj_property name="ObjectShortName">core1_irq_external</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core1_irq_fast" type="array">
+      <obj_property name="ElementShortName">core1_irq_fast[14:0]</obj_property>
+      <obj_property name="ObjectShortName">core1_irq_fast[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core1_irq_nm" type="logic">
+      <obj_property name="ElementShortName">core1_irq_nm</obj_property>
+      <obj_property name="ObjectShortName">core1_irq_nm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core1_debug_req" type="logic">
+      <obj_property name="ElementShortName">core1_debug_req</obj_property>
+      <obj_property name="ObjectShortName">core1_debug_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core1_fetch_enable" type="array">
+      <obj_property name="ElementShortName">core1_fetch_enable[3:0]</obj_property>
+      <obj_property name="ObjectShortName">core1_fetch_enable[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core1_alert_minor" type="logic">
+      <obj_property name="ElementShortName">core1_alert_minor</obj_property>
+      <obj_property name="ObjectShortName">core1_alert_minor</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core1_alert_major_internal" type="logic">
+      <obj_property name="ElementShortName">core1_alert_major_internal</obj_property>
+      <obj_property name="ObjectShortName">core1_alert_major_internal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core1_alert_major_bus" type="logic">
+      <obj_property name="ElementShortName">core1_alert_major_bus</obj_property>
+      <obj_property name="ObjectShortName">core1_alert_major_bus</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core1_core_sleep" type="logic">
+      <obj_property name="ElementShortName">core1_core_sleep</obj_property>
+      <obj_property name="ObjectShortName">core1_core_sleep</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core1_crash_dump" type="array">
+      <obj_property name="ElementShortName">core1_crash_dump</obj_property>
+      <obj_property name="ObjectShortName">core1_crash_dump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/core1_double_fault" type="logic">
+      <obj_property name="ElementShortName">core1_double_fault</obj_property>
+      <obj_property name="ObjectShortName">core1_double_fault</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/mon_total_cycles" type="array">
+      <obj_property name="ElementShortName">mon_total_cycles[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mon_total_cycles[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/mon_total_txn" type="array">
+      <obj_property name="ElementShortName">mon_total_txn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mon_total_txn[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/mon_write_txn" type="array">
+      <obj_property name="ElementShortName">mon_write_txn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mon_write_txn[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/mon_read_txn" type="array">
+      <obj_property name="ElementShortName">mon_read_txn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mon_read_txn[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/mon_contention_cycles" type="array">
+      <obj_property name="ElementShortName">mon_contention_cycles[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mon_contention_cycles[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/mon_stall_cycles" type="array">
+      <obj_property name="ElementShortName">mon_stall_cycles[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mon_stall_cycles[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/mon_bus_active_cycles" type="array">
+      <obj_property name="ElementShortName">mon_bus_active_cycles[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mon_bus_active_cycles[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/mon_master_txn" type="array">
+      <obj_property name="ElementShortName">mon_master_txn[1:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mon_master_txn[1:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/arb_req" type="array">
+      <obj_property name="ElementShortName">arb_req[1:0]</obj_property>
+      <obj_property name="ObjectShortName">arb_req[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/arb_gnt" type="array">
+      <obj_property name="ElementShortName">arb_gnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">arb_gnt[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/arb_sreq" type="logic">
+      <obj_property name="ElementShortName">arb_sreq</obj_property>
+      <obj_property name="ObjectShortName">arb_sreq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/arb_swe" type="logic">
+      <obj_property name="ElementShortName">arb_swe</obj_property>
+      <obj_property name="ObjectShortName">arb_swe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/arb_saddr" type="array">
+      <obj_property name="ElementShortName">arb_saddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">arb_saddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/arb_swdat" type="array">
+      <obj_property name="ElementShortName">arb_swdat[31:0]</obj_property>
+      <obj_property name="ObjectShortName">arb_swdat[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/arb_busy" type="logic">
+      <obj_property name="ElementShortName">arb_busy</obj_property>
+      <obj_property name="ObjectShortName">arb_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/arb_rvalid" type="logic">
+      <obj_property name="ElementShortName">arb_rvalid</obj_property>
+      <obj_property name="ObjectShortName">arb_rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/arb_winner" type="array">
+      <obj_property name="ElementShortName">arb_winner[0:0]</obj_property>
+      <obj_property name="ObjectShortName">arb_winner[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/arb_rr_ptr" type="array">
+      <obj_property name="ElementShortName">arb_rr_ptr[0:0]</obj_property>
+      <obj_property name="ObjectShortName">arb_rr_ptr[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/IMEM0_SIZE" type="array">
+      <obj_property name="ElementShortName">IMEM0_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IMEM0_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/IMEM1_SIZE" type="array">
+      <obj_property name="ElementShortName">IMEM1_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IMEM1_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/DMEM_SIZE" type="array">
+      <obj_property name="ElementShortName">DMEM_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DMEM_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/CORE0_BOOT" type="array">
+      <obj_property name="ElementShortName">CORE0_BOOT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CORE0_BOOT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/CORE1_BOOT" type="array">
+      <obj_property name="ElementShortName">CORE1_BOOT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CORE1_BOOT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/SHARED_BASE" type="array">
+      <obj_property name="ElementShortName">SHARED_BASE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SHARED_BASE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/MUBI4_TRUE" type="array">
+      <obj_property name="ElementShortName">MUBI4_TRUE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">MUBI4_TRUE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/SIM_TIME_NS" type="array">
+      <obj_property name="ElementShortName">SIM_TIME_NS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SIM_TIME_NS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/u_dut/u_shared_bus/u_shared_sram/addr_i" type="array">
+      <obj_property name="ElementShortName">addr_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/u_dut/u_shared_bus/u_shared_sram/we_i" type="logic">
+      <obj_property name="ElementShortName">we_i</obj_property>
+      <obj_property name="ObjectShortName">we_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/u_dut/u_shared_bus/u_shared_sram/wdata_i" type="array">
+      <obj_property name="ElementShortName">wdata_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/u_dut/u_shared_bus/u_shared_sram/rvalid_o" type="logic">
+      <obj_property name="ElementShortName">rvalid_o</obj_property>
+      <obj_property name="ObjectShortName">rvalid_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/u_dut/u_shared_bus/u_shared_sram/rdata_o" type="array">
+      <obj_property name="ElementShortName">rdata_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/u_dut/u_shared_bus/u_arbiter/rvalid_o" type="array">
+      <obj_property name="ElementShortName">rvalid_o[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rvalid_o[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/u_dut/u_shared_bus/u_arbiter/rdata_o" type="array">
+      <obj_property name="ElementShortName">rdata_o[1:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_o[1:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/u_dut/u_shared_bus/u_addr_decoder/decode_err_o" type="logic">
+      <obj_property name="ElementShortName">decode_err_o</obj_property>
+      <obj_property name="ObjectShortName">decode_err_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/u_dut/u_shared_bus/u_addr_decoder/slave_sel_o" type="array">
+      <obj_property name="ElementShortName">slave_sel_o[0:0]</obj_property>
+      <obj_property name="ObjectShortName">slave_sel_o[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/u_dut/u_shared_bus/u_shared_sram/mem[0]" type="array">
+      <obj_property name="ElementShortName">[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/u_dut/u_shared_bus/u_shared_sram/mem[1]" type="array">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/u_dut/u_shared_bus/u_shared_sram/mem[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ibex_shared_bus_tb/u_dut/u_shared_bus/u_shared_sram/mem[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Mon Jun 22 23:40:11 2026
+# Process ID         : 25428
+# Current directory  : E:/DoAn1
+# Command line       : xsim.exe -source {xsim.dir/v3_snap/xsim_script.tcl}
+# Log file           : E:/DoAn1/xsim.log
+# Journal file       : E:/DoAn1\xsim.jou
+# Running On         : HuLuz
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13620H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 16788 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 33968 MB
+# Available Virtual  : 15759 MB
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/v3_snap/xsim_script.tcl
+open_wave_config E:/DoAn1/ibex_dualcore_v3_manual/ibex_v3.wcfg
+run all
+close_sim

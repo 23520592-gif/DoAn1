@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Jun 18 23:36:28 2026
+# Process ID         : 25096
+# Current directory  : E:/DoAn1/ibex_private_l1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent240 E:\DoAn1\ibex_private_l1\ibex_private_l1.xpr
+# Log file           : E:/DoAn1/ibex_private_l1/vivado.log
+# Journal file       : E:/DoAn1/ibex_private_l1\vivado.jou
+# Running On         : HuLuz
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13620H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 16788 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 33968 MB
+# Available Virtual  : 18328 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/DoAn1/ibex_private_l1/ibex_private_l1.xpr
+update_compile_order -fileset sources_1
+set_property -name {xsim.elaborate.xelab.more_options} -value {-debug all} -objects [get_filesets sim_1]
+launch_simulation
+source ibex_coherence_tb.tcl
+get_objects /ibex_coherence_tb/clk
+source E:/DoAn1/add_waves.tcl
+get_objects /ibex_coherence_tb/dut/*
+get_objects /ibex_coherence_tb/dut/g_cache[0]/u_l1/*
+report_scopes /ibex_coherence_tb/dut
+close_sim
+close_sim
+set_property -name {xsim.elaborate.xelab.more_options} -value {-debug all -O0} -objects [get_filesets sim_1]
+launch_simulation
+source ibex_coherence_tb.tcl
+report_scopes /ibex_coherence_tb/dut
+get_property -name {xsim.elaborate.xelab.more_options} -object [get_filesets sim_1]
+close_sim
+reset_simulation -mode behavioral
+launch_simulation
+source ibex_coherence_tb.tcl
+report_scopes /ibex_coherence_tb/dut
+close_sim

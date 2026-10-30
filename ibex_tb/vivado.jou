@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sun May 17 13:35:50 2026
+# Process ID         : 25352
+# Current directory  : E:/DoAn1/ibex_tb
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent25876 E:\DoAn1\ibex_tb\ibex_tb.xpr
+# Log file           : E:/DoAn1/ibex_tb/vivado.log
+# Journal file       : E:/DoAn1/ibex_tb\vivado.jou
+# Running On         : HuLuz
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13620H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 16788 MB
+# Swap memory        : 10111 MB
+# Total Virtual      : 26900 MB
+# Available Virtual  : 14578 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/DoAn1/ibex_tb/ibex_tb.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source ibex_top_tb.tcl
+open_wave_config E:/DoAn1/ibex_tb/ibex_waves.wcfg
+restart
+run 5us
+save_wave_config {E:/DoAn1/ibex_tb/ibex_waves.wcfg}
+open_wave_config E:/DoAn1/ibex_tb/ibex_waves.wcfg
+save_wave_config E:/DoAn1/ibex_tb/singlecore_waves.wcfg
+write_vcd E:/DoAn1/ibex_tb/singlecore_sim.vcd
+open_vcd E:/DoAn1/ibex_tb/singlecore_sim.vcd
+log_vcd [get_objects -r /*]
+run 10us
+close_vcd
+close_sim

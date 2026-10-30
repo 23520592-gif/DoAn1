@@ -1,0 +1,71 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_secded_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_ram_1p_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex_coherence_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim_generic/rtl/prim_generic_ram_1p.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prim_generic_ram_1p
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/prim_buf.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prim_buf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/prim_clock_gating.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prim_clock_gating
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_branch_predict.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_branch_predict
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_compressed_decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_compressed_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_cs_registers.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_cs_registers
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_csr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_csr
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_dummy_instr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_dummy_instr
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_ex_block.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_ex_block
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_fetch_fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_fetch_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_icache.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_icache
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_id_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_id_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_if_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_if_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_load_store_unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_load_store_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_multdiv_fast.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_multdiv_fast
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_multdiv_slow.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_multdiv_slow
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_pmp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_pmp
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_prefetch_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_prefetch_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_register_file_ff.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_register_file_ff
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex/rtl/ibex_wb_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_wb_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex_l1_cache.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_l1_dcache
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex_directory_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_directory_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex_cache_bank_crossbar.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_cache_bank_crossbar
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex_coh_subsystem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_coh_subsystem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex_dualcore_top_v3.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_dualcore_top_v3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex_dualcore_v3_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_dualcore_v3_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/Vivado/2025.2/data/verilog/src/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

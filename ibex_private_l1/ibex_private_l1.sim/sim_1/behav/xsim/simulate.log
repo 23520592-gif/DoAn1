@@ -1,0 +1,20 @@
+Time resolution is 1 ps
+
+=======================================================
+=== BAT DAU TEST KICH BAN COHERENCE ===
+=======================================================
+
+[TIME 25000] 1. Core 0 doc addr 0x000 (Du kien: Miss, DIR cap Exclusive)
+
+[TIME 75000] 2. Core 1 doc addr 0x000 (Du kien: Core 0 bi snoop ha E->S)
+
+[TIME 145000] 3. Core 0 ghi addr 0x000 du lieu 0x12345678
+
+[TIME 225000] 4. Core 1 doc lai addr 0x000 de kiem tra du lieu moi
+    -> PASSED: Du lieu dong bo chinh xac: 12345678
+
+=======================================================
+=== MO PHONG COHERENCE HOAN TAT THANH CONG! ===
+=======================================================
+
+$finish called at time : 295 ns : File "E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sim_1/imports/DoAn1/ibex_coherence_tb.sv" Line 120

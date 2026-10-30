@@ -1,0 +1,43 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  -i "../../../../../ibex/rtl" -i "../../../../../ibex/vendor/lowrisc_ip/ip/prim/rtl" -i "../../../../../ibex/vendor/lowrisc_ip/ip/prim_generic/rtl" -i "../../../../../ibex/vendor/lowrisc_ip/dv/sv/dv_utils" --include "G:/Vivado/2025.2/Vivado/data/rsb/busdef" -d "DV_FCOV_DISABLE" -d "SYNTHESIS" \
+"../../../../../ibex/rtl/ibex_pkg.sv" \
+"../../../../../ibex/rtl/ibex_alu.sv" \
+"../../../../../ibex/rtl/ibex_branch_predict.sv" \
+"../../../../../ibex/rtl/ibex_compressed_decoder.sv" \
+"../../../../../ibex/rtl/ibex_controller.sv" \
+"../../../../../ibex/rtl/ibex_core.sv" \
+"../../../../../ibex/rtl/ibex_counter.sv" \
+"../../../../../ibex/rtl/ibex_cs_registers.sv" \
+"../../../../../ibex/rtl/ibex_csr.sv" \
+"../../../../../ibex/rtl/ibex_decoder.sv" \
+"../../../../../ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_ram_1p_pkg.sv" \
+"../../../../../ibex_dualcore_top.sv" \
+"../../../../../ibex/rtl/ibex_dummy_instr.sv" \
+"../../../../../ibex/rtl/ibex_ex_block.sv" \
+"../../../../../ibex/rtl/ibex_fetch_fifo.sv" \
+"../../../../../ibex/rtl/ibex_icache.sv" \
+"../../../../../ibex/rtl/ibex_id_stage.sv" \
+"../../../../../ibex/rtl/ibex_if_stage.sv" \
+"../../../../../ibex/rtl/ibex_load_store_unit.sv" \
+"../../../../../ibex/rtl/ibex_lockstep.sv" \
+"../../../../../ibex/rtl/ibex_multdiv_fast.sv" \
+"../../../../../ibex/rtl/ibex_multdiv_slow.sv" \
+"../../../../../ibex_obi_arbiter.sv" \
+"../../../../../ibex/rtl/ibex_pmp.sv" \
+"../../../../../ibex/rtl/ibex_prefetch_buffer.sv" \
+"../../../../../ibex/rtl/ibex_register_file_ff.sv" \
+"../../../../../ibex/rtl/ibex_register_file_fpga.sv" \
+"../../../../../ibex_shared_mem_top.sv" \
+"../../../../../ibex_shared_sram.sv" \
+"../../../../../ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_secded_pkg.sv" \
+"../../../../../ibex/rtl/ibex_top.sv" \
+"../../../../../ibex/rtl/ibex_wb_stage.sv" \
+"../../../../../prim_buf.sv" \
+"../../../../../prim_clock_gating.sv" \
+"../../../../../ibex_dualcore_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

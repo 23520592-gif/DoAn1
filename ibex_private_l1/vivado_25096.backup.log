@@ -1,0 +1,464 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Jun 18 23:36:28 2026
+# Process ID         : 25096
+# Current directory  : E:/DoAn1/ibex_private_l1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent240 E:\DoAn1\ibex_private_l1\ibex_private_l1.xpr
+# Log file           : E:/DoAn1/ibex_private_l1/vivado.log
+# Journal file       : E:/DoAn1/ibex_private_l1\vivado.jou
+# Running On         : HuLuz
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13620H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 16788 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 33968 MB
+# Available Virtual  : 18328 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/DoAn1/ibex_private_l1/ibex_private_l1.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.1\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kc705\1.6\board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.7 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kc705\1.7\board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.4\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.5\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu1500\1.2\board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:scu35:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\scu35\1.0\board.xml as part xcsu35p-sbvb625-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:v80:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\v80\1.0\board.xml as part xcv80-lsva4737-2mhp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.4\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.5 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.5\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc709\1.8\board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\2.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.4\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.6\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.0\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.3\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.4\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu1525\1.3\board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.0\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.1\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.1\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385_1:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385_2\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_mpsoc\1.0\board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_rfsoc\1.0\board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.0\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.1\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\2.2\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.0\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.1\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.2\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.3\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180_newl\production\1.0\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180_newl\production\1.1\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.0\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.1\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.2\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.0\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.1\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.0\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.1\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zc702\1.4\board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zc706\1.4\board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.5 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zc706\1.5\board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu102\3.3\board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu102\3.4\board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu104\1.1\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu106\2.4\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu106\2.5\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu106\2.6\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.2\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.3\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.4\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1275\1.0\board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1285\1.0\board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208\production\2.0\board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216\production\2.0\board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/DoAn1/ibex_private_l1/ibex_private_l1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.1\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kc705\1.6\board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.7 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kc705\1.7\board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.4\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.5\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu1500\1.2\board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:scu35:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\scu35\1.0\board.xml as part xcsu35p-sbvb625-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:v80:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\v80\1.0\board.xml as part xcv80-lsva4737-2mhp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.4\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.5 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.5\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc709\1.8\board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\2.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.4 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.4\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at G:/Vivado/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Vivado/2025.2/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 1652.559 ; gain = 249.258
+update_compile_order -fileset sources_1
+set_property -name {xsim.elaborate.xelab.more_options} -value {-debug all} -objects [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Thu Jun 18 23:37:54 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'ibex_coherence_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/DoAn1/ibex_private_l1/ibex_private_l1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'G:/Vivado/2025.2/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ibex_coherence_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/DoAn1/ibex_private_l1/ibex_private_l1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj ibex_coherence_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/DoAn1/ibex_private_l1/ibex_private_l1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot ibex_coherence_tb_behav xil_defaultlib.ibex_coherence_tb xil_defaultlib.glbl -log elaborate.log -debug all"
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: G:/Vivado/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot ibex_coherence_tb_behav xil_defaultlib.ibex_coherence_tb xil_defaultlib.glbl -log elaborate.log -debug all 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sources_1/imports/DoAn1/ibex_coherence_pkg.sv" Line 19. Module ibex_coherence_pkg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sources_1/imports/DoAn1/ibex_coh_subsystem.sv" Line 12. Module ibex_coh_subsystem_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4328] File: E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sim_1/imports/DoAn1/ibex_coherence_tb.sv Line: 51 : Sensitivity on input argument "core_id" of task "obi_read" may never get triggered.
+WARNING: [XSIM 43-4328] File: E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sim_1/imports/DoAn1/ibex_coherence_tb.sv Line: 55 : Sensitivity on input argument "core_id" of task "obi_read" may never get triggered.
+WARNING: [XSIM 43-4328] File: E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sim_1/imports/DoAn1/ibex_coherence_tb.sv Line: 68 : Sensitivity on input argument "core_id" of task "obi_write" may never get triggered.
+WARNING: [XSIM 43-4328] File: E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sim_1/imports/DoAn1/ibex_coherence_tb.sv Line: 72 : Sensitivity on input argument "core_id" of task "obi_write" may never get triggered.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.ibex_coherence_pkg
+Compiling module xil_defaultlib.ibex_l1_dcache_default
+Compiling module xil_defaultlib.ibex_directory_controller_defaul...
+Compiling module xil_defaultlib.ibex_coh_subsystem_default
+Compiling module xil_defaultlib.ibex_coherence_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ibex_coherence_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/DoAn1/ibex_private_l1/ibex_private_l1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ibex_coherence_tb_behav -key {Behavioral:sim_1:Functional:ibex_coherence_tb} -tclbatch {ibex_coherence_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ibex_coherence_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+
+=======================================================
+=== BAT DAU TEST KICH BAN COHERENCE ===
+=======================================================
+
+[TIME 25000] 1. Core 0 doc addr 0x000 (Du kien: Miss, DIR cap Exclusive)
+
+[TIME 75000] 2. Core 1 doc addr 0x000 (Du kien: Core 0 bi snoop ha E->S)
+
+[TIME 145000] 3. Core 0 ghi addr 0x000 du lieu 0x12345678
+
+[TIME 225000] 4. Core 1 doc lai addr 0x000 de kiem tra du lieu moi
+    -> PASSED: Du lieu dong bo chinh xac: 12345678
+
+=======================================================
+=== MO PHONG COHERENCE HOAN TAT THANH CONG! ===
+=======================================================
+
+$finish called at time : 295 ns : File "E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sim_1/imports/DoAn1/ibex_coherence_tb.sv" Line 120
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ibex_coherence_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1683.336 ; gain = 27.340
+get_objects /ibex_coherence_tb/clk
+/ibex_coherence_tb/clk
+source E:/DoAn1/add_waves.tcl
+# catch { remove_wave -of [get_wave_config] [get_waves *] }
+# add_wave_divider "Testbench Top Signals"
+# add_wave {/ibex_coherence_tb/clk}
+# add_wave {/ibex_coherence_tb/rst_n}
+# add_wave {/ibex_coherence_tb/core_req}
+# add_wave {/ibex_coherence_tb/core_gnt}
+# add_wave {/ibex_coherence_tb/core_addr}
+# add_wave {/ibex_coherence_tb/core_we}
+# add_wave {/ibex_coherence_tb/core_be}
+# add_wave {/ibex_coherence_tb/core_wdata}
+# add_wave {/ibex_coherence_tb/core_rvalid}
+# add_wave {/ibex_coherence_tb/core_rdata}
+# add_wave_divider "Coherence Bus Cache <-> Directory"
+# add_wave {/ibex_coherence_tb/dut/req_valid}
+# add_wave {/ibex_coherence_tb/dut/req_type}
+# add_wave {/ibex_coherence_tb/dut/req_addr}
+# add_wave {/ibex_coherence_tb/dut/req_data}
+# add_wave {/ibex_coherence_tb/dut/req_gnt}
+# add_wave {/ibex_coherence_tb/dut/resp_valid}
+# add_wave {/ibex_coherence_tb/dut/resp_msg}
+# add_wave {/ibex_coherence_tb/dut/resp_data}
+# add_wave {/ibex_coherence_tb/dut/snoop_valid}
+# add_wave {/ibex_coherence_tb/dut/snoop_cmd}
+# add_wave {/ibex_coherence_tb/dut/snoop_addr}
+# add_wave {/ibex_coherence_tb/dut/snoop_rsp_valid}
+# add_wave {/ibex_coherence_tb/dut/snoop_rsp_type}
+# add_wave {/ibex_coherence_tb/dut/snoop_rsp_data}
+# add_wave_divider "Core 0 L1 Cache - Control"
+# add_wave {/ibex_coherence_tb/dut/g_cache[0]/u_l1/st_q}
+ERROR: [Wavedata 42-471] Note: Nothing was found for the following items: /ibex_coherence_tb/dut/g_cache[0]/u_l1/st_q . If this is not expected, then this item might have been removed in one of the optimizations. Please elborate the design with '-deubg all' to avoid this.
+ERROR: [Common 17-39] 'add_wave' failed due to earlier errors.
+
+    while executing
+"add_wave {/ibex_coherence_tb/dut/g_cache[0]/u_l1/st_q}"
+    (file "E:/DoAn1/add_waves.tcl" line 46)
+get_objects /ibex_coherence_tb/dut/*
+/ibex_coherence_tb/dut/clk_i /ibex_coherence_tb/dut/rst_ni /ibex_coherence_tb/dut/core_req_i /ibex_coherence_tb/dut/core_gnt_o /ibex_coherence_tb/dut/core_addr_i /ibex_coherence_tb/dut/core_we_i /ibex_coherence_tb/dut/core_be_i /ibex_coherence_tb/dut/core_wdata_i /ibex_coherence_tb/dut/core_rvalid_o /ibex_coherence_tb/dut/core_rdata_o /ibex_coherence_tb/dut/req_valid /ibex_coherence_tb/dut/req_type /ibex_coherence_tb/dut/req_addr /ibex_coherence_tb/dut/req_data /ibex_coherence_tb/dut/req_gnt /ibex_coherence_tb/dut/resp_valid /ibex_coherence_tb/dut/resp_msg /ibex_coherence_tb/dut/resp_data /ibex_coherence_tb/dut/snoop_valid /ibex_coherence_tb/dut/snoop_cmd /ibex_coherence_tb/dut/snoop_addr /ibex_coherence_tb/dut/snoop_rsp_valid /ibex_coherence_tb/dut/snoop_rsp_type /ibex_coherence_tb/dut/snoop_rsp_data /ibex_coherence_tb/dut/CacheLines /ibex_coherence_tb/dut/MemLines /ibex_coherence_tb/dut/LineW
+get_objects /ibex_coherence_tb/dut/g_cache[0]/u_l1/*
+WARNING: [Simtcl 6-168] No object found for the given pattern.
+report_scopes /ibex_coherence_tb/dut
+      Verilog Instance: {/ibex_coherence_tb/dut}
+
+close_sim
+ERROR: [Simtcl 6-165] Wave configuration has been modified. Use -force to close simulation without saving wave configuration.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property -name {xsim.elaborate.xelab.more_options} -value {-debug all -O0} -objects [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Thu Jun 18 23:43:10 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'ibex_coherence_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/DoAn1/ibex_private_l1/ibex_private_l1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'G:/Vivado/2025.2/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ibex_coherence_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/DoAn1/ibex_private_l1/ibex_private_l1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj ibex_coherence_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/DoAn1/ibex_private_l1/ibex_private_l1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot ibex_coherence_tb_behav xil_defaultlib.ibex_coherence_tb xil_defaultlib.glbl -log elaborate.log -debug all -O0"
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: G:/Vivado/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot ibex_coherence_tb_behav xil_defaultlib.ibex_coherence_tb xil_defaultlib.glbl -log elaborate.log -debug all -O0 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sources_1/imports/DoAn1/ibex_coherence_pkg.sv" Line 19. Module ibex_coherence_pkg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sources_1/imports/DoAn1/ibex_coh_subsystem.sv" Line 12. Module ibex_coh_subsystem_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4328] File: E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sim_1/imports/DoAn1/ibex_coherence_tb.sv Line: 51 : Sensitivity on input argument "core_id" of task "obi_read" may never get triggered.
+WARNING: [XSIM 43-4328] File: E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sim_1/imports/DoAn1/ibex_coherence_tb.sv Line: 55 : Sensitivity on input argument "core_id" of task "obi_read" may never get triggered.
+WARNING: [XSIM 43-4328] File: E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sim_1/imports/DoAn1/ibex_coherence_tb.sv Line: 68 : Sensitivity on input argument "core_id" of task "obi_write" may never get triggered.
+WARNING: [XSIM 43-4328] File: E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sim_1/imports/DoAn1/ibex_coherence_tb.sv Line: 72 : Sensitivity on input argument "core_id" of task "obi_write" may never get triggered.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.ibex_coherence_pkg
+Compiling module xil_defaultlib.ibex_l1_dcache_default
+Compiling module xil_defaultlib.ibex_directory_controller_defaul...
+Compiling module xil_defaultlib.ibex_coh_subsystem_default
+Compiling module xil_defaultlib.ibex_coherence_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ibex_coherence_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/DoAn1/ibex_private_l1/ibex_private_l1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ibex_coherence_tb_behav -key {Behavioral:sim_1:Functional:ibex_coherence_tb} -tclbatch {ibex_coherence_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ibex_coherence_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+
+=======================================================
+=== BAT DAU TEST KICH BAN COHERENCE ===
+=======================================================
+
+[TIME 25000] 1. Core 0 doc addr 0x000 (Du kien: Miss, DIR cap Exclusive)
+
+[TIME 75000] 2. Core 1 doc addr 0x000 (Du kien: Core 0 bi snoop ha E->S)
+
+[TIME 145000] 3. Core 0 ghi addr 0x000 du lieu 0x12345678
+
+[TIME 225000] 4. Core 1 doc lai addr 0x000 de kiem tra du lieu moi
+    -> PASSED: Du lieu dong bo chinh xac: 12345678
+
+=======================================================
+=== MO PHONG COHERENCE HOAN TAT THANH CONG! ===
+=======================================================
+
+$finish called at time : 295 ns : File "E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sim_1/imports/DoAn1/ibex_coherence_tb.sv" Line 120
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ibex_coherence_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+report_scopes /ibex_coherence_tb/dut
+      Verilog Instance: {/ibex_coherence_tb/dut}
+
+get_property -name {xsim.elaborate.xelab.more_options} -object [get_filesets sim_1]
+-debug all -O0
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_simulation -mode behavioral
+INFO: [Vivado 12-2266] Removing simulation data...
+INFO: [Vivado 12-2267] Reset complete
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Thu Jun 18 23:45:04 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'ibex_coherence_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/DoAn1/ibex_private_l1/ibex_private_l1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'G:/Vivado/2025.2/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ibex_coherence_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/DoAn1/ibex_private_l1/ibex_private_l1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj ibex_coherence_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sources_1/imports/DoAn1/ibex_coherence_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sources_1/imports/DoAn1/ibex_coh_subsystem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_coh_subsystem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sources_1/imports/DoAn1/ibex_directory_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_directory_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sources_1/imports/DoAn1/ibex_l1_cache.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_l1_dcache
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sim_1/imports/DoAn1/ibex_coherence_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_coherence_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/DoAn1/ibex_private_l1/ibex_private_l1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/DoAn1/ibex_private_l1/ibex_private_l1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot ibex_coherence_tb_behav xil_defaultlib.ibex_coherence_tb xil_defaultlib.glbl -log elaborate.log -debug all -O0"
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: G:/Vivado/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot ibex_coherence_tb_behav xil_defaultlib.ibex_coherence_tb xil_defaultlib.glbl -log elaborate.log -debug all -O0 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sources_1/imports/DoAn1/ibex_coherence_pkg.sv" Line 19. Module ibex_coherence_pkg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sources_1/imports/DoAn1/ibex_coh_subsystem.sv" Line 12. Module ibex_coh_subsystem_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sources_1/imports/DoAn1/ibex_l1_cache.sv" Line 28. Module ibex_l1_dcache_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sources_1/imports/DoAn1/ibex_l1_cache.sv" Line 28. Module ibex_l1_dcache_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sources_1/imports/DoAn1/ibex_directory_controller.sv" Line 21. Module ibex_directory_controller_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4328] File: E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sim_1/imports/DoAn1/ibex_coherence_tb.sv Line: 51 : Sensitivity on input argument "core_id" of task "obi_read" may never get triggered.
+WARNING: [XSIM 43-4328] File: E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sim_1/imports/DoAn1/ibex_coherence_tb.sv Line: 55 : Sensitivity on input argument "core_id" of task "obi_read" may never get triggered.
+WARNING: [XSIM 43-4328] File: E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sim_1/imports/DoAn1/ibex_coherence_tb.sv Line: 68 : Sensitivity on input argument "core_id" of task "obi_write" may never get triggered.
+WARNING: [XSIM 43-4328] File: E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sim_1/imports/DoAn1/ibex_coherence_tb.sv Line: 72 : Sensitivity on input argument "core_id" of task "obi_write" may never get triggered.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.ibex_coherence_pkg
+Compiling module xil_defaultlib.ibex_l1_dcache_default
+Compiling module xil_defaultlib.ibex_directory_controller_defaul...
+Compiling module xil_defaultlib.ibex_coh_subsystem_default
+Compiling module xil_defaultlib.ibex_coherence_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ibex_coherence_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/DoAn1/ibex_private_l1/ibex_private_l1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ibex_coherence_tb_behav -key {Behavioral:sim_1:Functional:ibex_coherence_tb} -tclbatch {ibex_coherence_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ibex_coherence_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+
+=======================================================
+=== BAT DAU TEST KICH BAN COHERENCE ===
+=======================================================
+
+[TIME 25000] 1. Core 0 doc addr 0x000 (Du kien: Miss, DIR cap Exclusive)
+
+[TIME 75000] 2. Core 1 doc addr 0x000 (Du kien: Core 0 bi snoop ha E->S)
+
+[TIME 145000] 3. Core 0 ghi addr 0x000 du lieu 0x12345678
+
+[TIME 225000] 4. Core 1 doc lai addr 0x000 de kiem tra du lieu moi
+    -> PASSED: Du lieu dong bo chinh xac: 12345678
+
+=======================================================
+=== MO PHONG COHERENCE HOAN TAT THANH CONG! ===
+=======================================================
+
+$finish called at time : 295 ns : File "E:/DoAn1/ibex_private_l1/ibex_private_l1.srcs/sim_1/imports/DoAn1/ibex_coherence_tb.sv" Line 120
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ibex_coherence_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+report_scopes /ibex_coherence_tb/dut
+      Verilog Instance: {/ibex_coherence_tb/dut}
+
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 18 23:46:23 2026...

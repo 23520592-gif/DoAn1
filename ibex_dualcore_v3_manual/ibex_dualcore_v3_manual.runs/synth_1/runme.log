@@ -1,0 +1,1003 @@
+
+*** Running vivado
+    with args -log ibex_dualcore_top_v3.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ibex_dualcore_top_v3.tcl
+
+
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Tue Jun 23 11:32:06 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source ibex_dualcore_top_v3.tcl -notrace
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 534.602 ; gain = 220.656
+Command: synth_design -top ibex_dualcore_top_v3 -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 26320
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1077.344 ; gain = 537.797
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-11067] parameter 'ADDR_W' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:367]
+WARNING: [Synth 8-11067] parameter 'BUS_SIZE' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:368]
+WARNING: [Synth 8-11067] parameter 'BUS_BYTES' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:369]
+WARNING: [Synth 8-11067] parameter 'BUS_W' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:370]
+WARNING: [Synth 8-11067] parameter 'IC_SIZE_BYTES' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:371]
+WARNING: [Synth 8-11067] parameter 'IC_NUM_WAYS' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:372]
+WARNING: [Synth 8-11067] parameter 'IC_LINE_SIZE' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:373]
+WARNING: [Synth 8-11067] parameter 'IC_LINE_BYTES' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:374]
+WARNING: [Synth 8-11067] parameter 'IC_LINE_W' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:375]
+WARNING: [Synth 8-11067] parameter 'IC_NUM_LINES' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:376]
+WARNING: [Synth 8-11067] parameter 'IC_LINE_BEATS' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:377]
+WARNING: [Synth 8-11067] parameter 'IC_LINE_BEATS_W' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:378]
+WARNING: [Synth 8-11067] parameter 'IC_INDEX_W' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:379]
+WARNING: [Synth 8-11067] parameter 'IC_INDEX_HI' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:380]
+WARNING: [Synth 8-11067] parameter 'IC_TAG_SIZE' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:381]
+WARNING: [Synth 8-11067] parameter 'IC_OUTPUT_BEATS' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:382]
+WARNING: [Synth 8-11067] parameter 'SCRAMBLE_KEY_W' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:384]
+WARNING: [Synth 8-11067] parameter 'SCRAMBLE_NONCE_W' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:385]
+WARNING: [Synth 8-11067] parameter 'PMP_MAX_REGIONS' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:388]
+WARNING: [Synth 8-11067] parameter 'PMP_CFG_W' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:389]
+WARNING: [Synth 8-11067] parameter 'PMP_I' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:392]
+WARNING: [Synth 8-11067] parameter 'PMP_I2' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:393]
+WARNING: [Synth 8-11067] parameter 'PMP_D' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:394]
+WARNING: [Synth 8-11067] parameter 'CSR_OFF_PMP_CFG' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:594]
+WARNING: [Synth 8-11067] parameter 'CSR_OFF_PMP_ADDR' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:595]
+WARNING: [Synth 8-11067] parameter 'CSR_MSTATUS_MIE_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:598]
+WARNING: [Synth 8-11067] parameter 'CSR_MSTATUS_MPIE_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:599]
+WARNING: [Synth 8-11067] parameter 'CSR_MSTATUS_MPP_BIT_LOW' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:600]
+WARNING: [Synth 8-11067] parameter 'CSR_MSTATUS_MPP_BIT_HIGH' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:601]
+WARNING: [Synth 8-11067] parameter 'CSR_MSTATUS_MPRV_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:602]
+WARNING: [Synth 8-11067] parameter 'CSR_MSTATUS_TW_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:603]
+WARNING: [Synth 8-11067] parameter 'CSR_MISA_MXL' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:606]
+WARNING: [Synth 8-11067] parameter 'CSR_MSIX_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:609]
+WARNING: [Synth 8-11067] parameter 'CSR_MTIX_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:610]
+WARNING: [Synth 8-11067] parameter 'CSR_MEIX_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:611]
+WARNING: [Synth 8-11067] parameter 'CSR_MFIX_BIT_LOW' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:612]
+WARNING: [Synth 8-11067] parameter 'CSR_MFIX_BIT_HIGH' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:613]
+WARNING: [Synth 8-11067] parameter 'CSR_MSECCFG_MML_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:616]
+WARNING: [Synth 8-11067] parameter 'CSR_MSECCFG_MMWP_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:617]
+WARNING: [Synth 8-11067] parameter 'CSR_MSECCFG_RLB_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:618]
+WARNING: [Synth 8-11067] parameter 'LfsrWidth' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:633]
+WARNING: [Synth 8-11067] parameter 'RndCnstLfsrSeedDefault' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:636]
+WARNING: [Synth 8-11067] parameter 'RndCnstLfsrPermDefault' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:637]
+WARNING: [Synth 8-11067] parameter 'RndCnstIbexKeyDefault' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:640]
+WARNING: [Synth 8-11067] parameter 'RndCnstIbexNonceDefault' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:642]
+WARNING: [Synth 8-11067] parameter 'IbexMuBiWidth' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:647]
+WARNING: [Synth 8-11067] parameter 'IbexMuBiOn' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:654]
+WARNING: [Synth 8-11067] parameter 'IbexMuBiOff' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:655]
+WARNING: [Synth 8-11067] parameter 'PmpCfgRst' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:664]
+WARNING: [Synth 8-11067] parameter 'PmpAddrRst' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:686]
+WARNING: [Synth 8-11067] parameter 'PmpMseccfgRst' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex/rtl/ibex_pkg.sv:705]
+WARNING: [Synth 8-11067] parameter 'ADDR_W' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:367]
+WARNING: [Synth 8-11067] parameter 'BUS_SIZE' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:368]
+WARNING: [Synth 8-11067] parameter 'BUS_BYTES' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:369]
+WARNING: [Synth 8-11067] parameter 'BUS_W' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:370]
+WARNING: [Synth 8-11067] parameter 'IC_SIZE_BYTES' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:371]
+WARNING: [Synth 8-11067] parameter 'IC_NUM_WAYS' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:372]
+WARNING: [Synth 8-11067] parameter 'IC_LINE_SIZE' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:373]
+WARNING: [Synth 8-11067] parameter 'IC_LINE_BYTES' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:374]
+WARNING: [Synth 8-11067] parameter 'IC_LINE_W' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:375]
+WARNING: [Synth 8-11067] parameter 'IC_NUM_LINES' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:376]
+WARNING: [Synth 8-11067] parameter 'IC_LINE_BEATS' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:377]
+WARNING: [Synth 8-11067] parameter 'IC_LINE_BEATS_W' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:378]
+WARNING: [Synth 8-11067] parameter 'IC_INDEX_W' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:379]
+WARNING: [Synth 8-11067] parameter 'IC_INDEX_HI' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:380]
+WARNING: [Synth 8-11067] parameter 'IC_TAG_SIZE' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:381]
+WARNING: [Synth 8-11067] parameter 'IC_OUTPUT_BEATS' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:382]
+WARNING: [Synth 8-11067] parameter 'SCRAMBLE_KEY_W' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:384]
+WARNING: [Synth 8-11067] parameter 'SCRAMBLE_NONCE_W' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:385]
+WARNING: [Synth 8-11067] parameter 'PMP_MAX_REGIONS' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:388]
+WARNING: [Synth 8-11067] parameter 'PMP_CFG_W' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:389]
+WARNING: [Synth 8-11067] parameter 'PMP_I' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:392]
+WARNING: [Synth 8-11067] parameter 'PMP_I2' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:393]
+WARNING: [Synth 8-11067] parameter 'PMP_D' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:394]
+WARNING: [Synth 8-11067] parameter 'CSR_OFF_PMP_CFG' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:594]
+WARNING: [Synth 8-11067] parameter 'CSR_OFF_PMP_ADDR' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:595]
+WARNING: [Synth 8-11067] parameter 'CSR_MSTATUS_MIE_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:598]
+WARNING: [Synth 8-11067] parameter 'CSR_MSTATUS_MPIE_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:599]
+WARNING: [Synth 8-11067] parameter 'CSR_MSTATUS_MPP_BIT_LOW' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:600]
+WARNING: [Synth 8-11067] parameter 'CSR_MSTATUS_MPP_BIT_HIGH' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:601]
+WARNING: [Synth 8-11067] parameter 'CSR_MSTATUS_MPRV_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:602]
+WARNING: [Synth 8-11067] parameter 'CSR_MSTATUS_TW_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:603]
+WARNING: [Synth 8-11067] parameter 'CSR_MISA_MXL' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:606]
+WARNING: [Synth 8-11067] parameter 'CSR_MSIX_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:609]
+WARNING: [Synth 8-11067] parameter 'CSR_MTIX_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:610]
+WARNING: [Synth 8-11067] parameter 'CSR_MEIX_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:611]
+WARNING: [Synth 8-11067] parameter 'CSR_MFIX_BIT_LOW' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:612]
+WARNING: [Synth 8-11067] parameter 'CSR_MFIX_BIT_HIGH' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:613]
+WARNING: [Synth 8-11067] parameter 'CSR_MSECCFG_MML_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:616]
+WARNING: [Synth 8-11067] parameter 'CSR_MSECCFG_MMWP_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:617]
+WARNING: [Synth 8-11067] parameter 'CSR_MSECCFG_RLB_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:618]
+WARNING: [Synth 8-11067] parameter 'LfsrWidth' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:633]
+WARNING: [Synth 8-11067] parameter 'RndCnstLfsrSeedDefault' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:636]
+WARNING: [Synth 8-11067] parameter 'RndCnstLfsrPermDefault' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:637]
+WARNING: [Synth 8-11067] parameter 'RndCnstIbexKeyDefault' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:640]
+WARNING: [Synth 8-11067] parameter 'RndCnstIbexNonceDefault' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:642]
+WARNING: [Synth 8-11067] parameter 'IbexMuBiWidth' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:647]
+WARNING: [Synth 8-11067] parameter 'IbexMuBiOn' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:654]
+WARNING: [Synth 8-11067] parameter 'IbexMuBiOff' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:655]
+WARNING: [Synth 8-11067] parameter 'PmpCfgRst' declared inside package 'ibex_pkg' shall be treated as localparam [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:664]
+INFO: [Common 17-14] Message 'Synth 8-11067' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+CRITICAL WARNING: [Synth 8-10644] design element 'ibex_pkg' is previously defined; ignoring this definition [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/rtl/ibex_pkg.sv:706]
+INFO: [Synth 8-13127] previous definition of package 'ibex_pkg' is here [E:/DoAn1/ibex/rtl/ibex_pkg.sv:706]
+CRITICAL WARNING: [Synth 8-10644] design element 'ibex_coherence_pkg' is previously defined; ignoring this definition [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_coherence_pkg.sv:113]
+INFO: [Synth 8-13127] previous definition of package 'ibex_coherence_pkg' is here [E:/DoAn1/ibex_coherence_pkg.sv:113]
+CRITICAL WARNING: [Synth 8-10644] design element 'prim_ram_1p_pkg' is previously defined; ignoring this definition [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_ram_1p_pkg.sv:20]
+INFO: [Synth 8-13127] previous definition of package 'prim_ram_1p_pkg' is here [E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_ram_1p_pkg.sv:20]
+CRITICAL WARNING: [Synth 8-10644] design element 'prim_secded_pkg' is previously defined; ignoring this definition [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_secded_pkg.sv:1787]
+INFO: [Synth 8-13127] previous definition of package 'prim_secded_pkg' is here [E:/DoAn1/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_secded_pkg.sv:1787]
+INFO: [Synth 8-6157] synthesizing module 'ibex_dualcore_top_v3' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_dualcore_top_v3.sv:27]
+INFO: [Synth 8-6157] synthesizing module 'ibex_top' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_top.sv:15]
+	Parameter RV32E bound to: 1'b0 
+	Parameter RV32M bound to: 2 - type: integer 
+	Parameter RV32B bound to: 0 - type: integer 
+	Parameter RegFile bound to: 0 - type: integer 
+	Parameter BranchTargetALU bound to: 1'b0 
+	Parameter WritebackStage bound to: 1'b0 
+	Parameter DmHaltAddr bound to: 437323776 - type: integer 
+	Parameter DmExceptionAddr bound to: 437323784 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ibex_register_file_ff' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_register_file_ff.sv:13]
+	Parameter RV32E bound to: 1'b0 
+	Parameter DataWidth bound to: 32'b00000000000000000000000000100000 
+	Parameter DummyInstructions bound to: 1'b0 
+	Parameter WrenCheck bound to: 1'b0 
+	Parameter RdataMuxCheck bound to: 1'b0 
+	Parameter WordZeroVal bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_register_file_ff' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_register_file_ff.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'prim_clock_gating' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/prim_clock_gating.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'prim_clock_gating' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/prim_clock_gating.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'prim_buf' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/prim_buf.sv:1]
+	Parameter Width bound to: 32'sb00000000000000000000000000000100 
+INFO: [Synth 8-6155] done synthesizing module 'prim_buf' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/prim_buf.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'prim_buf__parameterized0' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/prim_buf.sv:1]
+	Parameter Width bound to: 32'sb00000000000000000000000000100000 
+INFO: [Synth 8-6155] done synthesizing module 'prim_buf__parameterized0' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/prim_buf.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'ibex_core' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_core.sv:16]
+	Parameter PMPEnable bound to: 1'b0 
+	Parameter PMPGranularity bound to: 32'b00000000000000000000000000000000 
+	Parameter PMPNumRegions bound to: 32'b00000000000000000000000000000100 
+	Parameter PMPRstCfg bound to: 96'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter PMPRstAddr bound to: 544'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter PMPRstMsecCfg[rlb] bound to: 1'b0 
+	Parameter PMPRstMsecCfg[mmwp] bound to: 1'b0 
+	Parameter PMPRstMsecCfg[mml] bound to: 1'b0 
+	Parameter MHPMCounterNum bound to: 32'b00000000000000000000000000000000 
+	Parameter MHPMCounterWidth bound to: 32'b00000000000000000000000000101000 
+	Parameter RV32E bound to: 1'b0 
+	Parameter RV32M bound to: 2 - type: integer 
+	Parameter RV32B bound to: 0 - type: integer 
+	Parameter BranchTargetALU bound to: 1'b0 
+	Parameter WritebackStage bound to: 1'b0 
+	Parameter ICache bound to: 1'b0 
+	Parameter ICacheECC bound to: 1'b0 
+	Parameter BusSizeECC bound to: 32'b00000000000000000000000000100000 
+	Parameter TagSizeECC bound to: 32'b00000000000000000000000000010110 
+	Parameter LineSizeECC bound to: 32'b00000000000000000000000001000000 
+	Parameter BranchPredictor bound to: 1'b0 
+	Parameter DbgTriggerEn bound to: 1'b0 
+	Parameter DbgHwBreakNum bound to: 32'b00000000000000000000000000000001 
+	Parameter ResetAll bound to: 1'b0 
+	Parameter RndCnstLfsrSeed bound to: -1403831308 - type: integer 
+	Parameter RndCnstLfsrPerm bound to: 160'b0001111000110101111011001011101001000110011111111101000110110001001011101001010110000001010100101100000001001111101001000011100001111000101010001101101011101101 
+	Parameter SecureIbex bound to: 1'b0 
+	Parameter DummyInstructions bound to: 1'b0 
+	Parameter RegFileECC bound to: 1'b0 
+	Parameter RegFileDataWidth bound to: 32'b00000000000000000000000000100000 
+	Parameter MemECC bound to: 1'b0 
+	Parameter MemDataWidth bound to: 32'b00000000000000000000000000100000 
+	Parameter DmBaseAddr bound to: 437321728 - type: integer 
+	Parameter DmAddrMask bound to: 4095 - type: integer 
+	Parameter DmHaltAddr bound to: 437323776 - type: integer 
+	Parameter DmExceptionAddr bound to: 437323784 - type: integer 
+	Parameter CsrMvendorId bound to: 0 - type: integer 
+	Parameter CsrMimpId bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ibex_if_stage' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_if_stage.sv:16]
+	Parameter DmHaltAddr bound to: 437323776 - type: integer 
+	Parameter DmExceptionAddr bound to: 437323784 - type: integer 
+	Parameter DummyInstructions bound to: 1'b0 
+	Parameter ICache bound to: 1'b0 
+	Parameter ICacheECC bound to: 1'b0 
+	Parameter BusSizeECC bound to: 32'b00000000000000000000000000100000 
+	Parameter TagSizeECC bound to: 32'b00000000000000000000000000010110 
+	Parameter LineSizeECC bound to: 32'b00000000000000000000000001000000 
+	Parameter PCIncrCheck bound to: 1'b0 
+	Parameter ResetAll bound to: 1'b0 
+	Parameter RndCnstLfsrSeed bound to: -1403831308 - type: integer 
+	Parameter RndCnstLfsrPerm bound to: 160'b0001111000110101111011001011101001000110011111111101000110110001001011101001010110000001010100101100000001001111101001000011100001111000101010001101101011101101 
+	Parameter BranchPredictor bound to: 1'b0 
+	Parameter MemECC bound to: 1'b0 
+	Parameter MemDataWidth bound to: 32'b00000000000000000000000000100000 
+INFO: [Synth 8-6157] synthesizing module 'ibex_prefetch_buffer' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_prefetch_buffer.sv:12]
+	Parameter ResetAll bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'ibex_fetch_fifo' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_fetch_fifo.sv:15]
+	Parameter NUM_REQS bound to: 32'b00000000000000000000000000000010 
+	Parameter ResetAll bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_fetch_fifo' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_fetch_fifo.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_prefetch_buffer' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_prefetch_buffer.sv:12]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_if_stage.sv:192]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_if_stage.sv:192]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_if_stage.sv:208]
+INFO: [Synth 8-6157] synthesizing module 'ibex_compressed_decoder' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_compressed_decoder.sv:16]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_compressed_decoder.sv:42]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_compressed_decoder.sv:42]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_compressed_decoder.sv:45]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_compressed_decoder.sv:45]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_compressed_decoder.sv:86]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_compressed_decoder.sv:86]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_compressed_decoder.sv:124]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_compressed_decoder.sv:124]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_compressed_decoder.sv:142]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_compressed_decoder.sv:142]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_compressed_decoder.sv:208]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_compressed_decoder.sv:208]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_compressed_decoder' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_compressed_decoder.sv:16]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_if_stage' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_if_stage.sv:16]
+INFO: [Synth 8-6157] synthesizing module 'ibex_id_stage' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_id_stage.sv:20]
+	Parameter RV32E bound to: 1'b0 
+	Parameter RV32M bound to: 2 - type: integer 
+	Parameter RV32B bound to: 0 - type: integer 
+	Parameter DataIndTiming bound to: 1'b0 
+	Parameter BranchTargetALU bound to: 1'b0 
+	Parameter WritebackStage bound to: 1'b0 
+	Parameter BranchPredictor bound to: 1'b0 
+	Parameter MemECC bound to: 1'b0 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_id_stage.sv:376]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_id_stage.sv:318]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_id_stage.sv:318]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_id_stage.sv:425]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_id_stage.sv:425]
+INFO: [Synth 8-6157] synthesizing module 'ibex_decoder' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:16]
+	Parameter RV32E bound to: 1'b0 
+	Parameter RV32M bound to: 2 - type: integer 
+	Parameter RV32B bound to: 0 - type: integer 
+	Parameter BranchTargetALU bound to: 1'b0 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:240]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:280]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:309]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:326]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:357]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:357]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:366]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:382]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:407]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:458]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:568]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:596]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:632]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:692]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:744]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:825]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:825]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:995]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:1143]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_decoder' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_decoder.sv:16]
+INFO: [Synth 8-6157] synthesizing module 'ibex_controller' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_controller.sv:13]
+	Parameter WritebackStage bound to: 1'b0 
+	Parameter BranchPredictor bound to: 1'b0 
+	Parameter MemECC bound to: 1'b0 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_controller.sv:494]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_controller.sv:757]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_controller' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_controller.sv:13]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_id_stage.sv:794]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_id_stage.sv:794]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_id_stage.sv:796]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_id_stage' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_id_stage.sv:20]
+INFO: [Synth 8-6157] synthesizing module 'ibex_ex_block' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_ex_block.sv:11]
+	Parameter RV32M bound to: 2 - type: integer 
+	Parameter RV32B bound to: 0 - type: integer 
+	Parameter BranchTargetALU bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'ibex_multdiv_fast' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_multdiv_fast.sv:17]
+	Parameter RV32M bound to: 2 - type: integer 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_multdiv_fast.sv:293]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_multdiv_fast.sv:293]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_multdiv_fast.sv:425]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_multdiv_fast' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_multdiv_fast.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'ibex_alu' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_alu.sv:9]
+	Parameter RV32B bound to: 0 - type: integer 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_alu.sv:60]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_alu.sv:85]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_alu.sv:97]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_alu.sv:120]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_alu.sv:160]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_alu.sv:305]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_alu.sv:372]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_alu.sv:392]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_alu.sv:1322]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_alu' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_alu.sv:9]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_ex_block' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_ex_block.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'ibex_load_store_unit' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:17]
+	Parameter MemECC bound to: 1'b0 
+	Parameter MemDataWidth bound to: 32'b00000000000000000000000000100000 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:119]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:119]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:122]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:122]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:130]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:130]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:142]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:142]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:156]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:156]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:176]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:176]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:229]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:229]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:244]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:244]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:283]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:283]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:322]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:322]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:383]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_load_store_unit' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_load_store_unit.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'ibex_wb_stage' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_wb_stage.sv:17]
+	Parameter ResetAll bound to: 1'b0 
+	Parameter WritebackStage bound to: 1'b0 
+	Parameter DummyInstructions bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_wb_stage' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_wb_stage.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'ibex_cs_registers' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_cs_registers.sv:12]
+	Parameter DbgTriggerEn bound to: 1'b0 
+	Parameter DbgHwBreakNum bound to: 32'b00000000000000000000000000000001 
+	Parameter DataIndTiming bound to: 1'b0 
+	Parameter DummyInstructions bound to: 1'b0 
+	Parameter ShadowCSR bound to: 1'b0 
+	Parameter ICache bound to: 1'b0 
+	Parameter MHPMCounterNum bound to: 32'b00000000000000000000000000000000 
+	Parameter MHPMCounterWidth bound to: 32'b00000000000000000000000000101000 
+	Parameter PMPEnable bound to: 1'b0 
+	Parameter PMPGranularity bound to: 32'b00000000000000000000000000000000 
+	Parameter PMPNumRegions bound to: 32'b00000000000000000000000000000100 
+	Parameter PMPRstCfg bound to: 96'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter PMPRstAddr bound to: 544'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter PMPRstMsecCfg[rlb] bound to: 1'b0 
+	Parameter PMPRstMsecCfg[mmwp] bound to: 1'b0 
+	Parameter PMPRstMsecCfg[mml] bound to: 1'b0 
+	Parameter RV32E bound to: 1'b0 
+	Parameter RV32M bound to: 2 - type: integer 
+	Parameter RV32B bound to: 0 - type: integer 
+	Parameter CsrMvendorId bound to: 0 - type: integer 
+	Parameter CsrMimpId bound to: 0 - type: integer 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_cs_registers.sv:337]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_cs_registers.sv:612]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_cs_registers.sv:718]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_cs_registers.sv:721]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_cs_registers.sv:829]
+INFO: [Synth 8-226] default block is never used [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_cs_registers.sv:829]
+INFO: [Synth 8-6157] synthesizing module 'ibex_csr' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_csr.sv:11]
+	Parameter Width bound to: 32'b00000000000000000000000000000110 
+	Parameter ShadowCopy bound to: 1'b0 
+	Parameter ResetValue bound to: 6'b010000 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_csr' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_csr.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'ibex_csr__parameterized0' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_csr.sv:11]
+	Parameter Width bound to: 32'b00000000000000000000000000100000 
+	Parameter ShadowCopy bound to: 1'b0 
+	Parameter ResetValue bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_csr__parameterized0' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_csr.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'ibex_csr__parameterized1' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_csr.sv:11]
+	Parameter Width bound to: 32'b00000000000000000000000000010010 
+	Parameter ShadowCopy bound to: 1'b0 
+	Parameter ResetValue bound to: 18'b000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_csr__parameterized1' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_csr.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'ibex_csr__parameterized2' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_csr.sv:11]
+	Parameter Width bound to: 32'b00000000000000000000000000000111 
+	Parameter ShadowCopy bound to: 1'b0 
+	Parameter ResetValue bound to: 7'b0000000 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_csr__parameterized2' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_csr.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'ibex_csr__parameterized3' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_csr.sv:11]
+	Parameter Width bound to: 32'b00000000000000000000000000100000 
+	Parameter ShadowCopy bound to: 1'b0 
+	Parameter ResetValue bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_csr__parameterized3' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_csr.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'ibex_csr__parameterized4' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_csr.sv:11]
+	Parameter Width bound to: 32'b00000000000000000000000000100000 
+	Parameter ShadowCopy bound to: 1'b0 
+	Parameter ResetValue bound to: 32'b01000000000000000000000000000011 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_csr__parameterized4' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_csr.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'ibex_csr__parameterized5' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_csr.sv:11]
+	Parameter Width bound to: 32'b00000000000000000000000000000011 
+	Parameter ShadowCopy bound to: 1'b0 
+	Parameter ResetValue bound to: 3'b100 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_csr__parameterized5' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_csr.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'ibex_counter' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_counter.sv:5]
+	Parameter CounterWidth bound to: 32'sb00000000000000000000000001000000 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_counter' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_counter.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'ibex_counter__parameterized0' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_counter.sv:5]
+	Parameter CounterWidth bound to: 32'sb00000000000000000000000001000000 
+	Parameter ProvideValUpd bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_counter__parameterized0' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_counter.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'ibex_csr__parameterized6' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_csr.sv:11]
+	Parameter Width bound to: 32'b00000000000000000000000000001000 
+	Parameter ShadowCopy bound to: 1'b0 
+	Parameter ResetValue bound to: 8'b00000000 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_csr__parameterized6' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_csr.sv:11]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_cs_registers' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_cs_registers.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_core' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_core.sv:16]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_top' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_top.sv:15]
+INFO: [Synth 8-6157] synthesizing module 'ibex_coh_subsystem' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_coh_subsystem.sv:10]
+	Parameter CacheLines bound to: 32'b00000000000000000000000000010000 
+	Parameter MemLines bound to: 32'b00000000000000000000000100000000 
+INFO: [Synth 8-6157] synthesizing module 'ibex_l1_dcache' [E:/DoAn1/ibex_l1_cache.sv:10]
+	Parameter CacheLines bound to: 32'b00000000000000000000000000010000 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_l1_cache.sv:150]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_l1_cache.sv:283]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_l1_cache.sv:308]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_l1_cache.sv:334]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_l1_cache.sv:354]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_l1_dcache' (0#1) [E:/DoAn1/ibex_l1_cache.sv:10]
+INFO: [Synth 8-6157] synthesizing module 'ibex_directory_controller' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_directory_controller.sv:10]
+	Parameter MemLines bound to: 32'b00000000000000000000000100000000 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_directory_controller.sv:102]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_directory_controller.sv:106]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_directory_controller.sv:109]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_directory_controller.sv:115]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_directory_controller.sv:170]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_directory_controller.sv:180]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_directory_controller.sv:196]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_directory_controller' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_directory_controller.sv:10]
+INFO: [Synth 8-6157] synthesizing module 'ibex_cache_bank_crossbar' [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_cache_bank_crossbar.sv:11]
+	Parameter MemLines bound to: 32'b00000000000000000000000100000000 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_cache_bank_crossbar' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_cache_bank_crossbar.sv:11]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_coh_subsystem' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_coh_subsystem.sv:10]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_dualcore_top_v3' (0#1) [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_dualcore_top_v3.sv:27]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mhpmcounter_incr_reg' and it is trimmed from '32' to '3' bits. [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/rtl/ibex_cs_registers.sv:1287]
+WARNING: [Synth 8-6014] Unused sequential element cur_type_q_reg was removed.  [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_directory_controller.sv:153]
+WARNING: [Synth 8-11357] Potential Runtime issue for 3D-RAM or RAM from Record/Structs for RAM  bank_mem_q_reg with 32768 registers
+WARNING: [Synth 8-3848] Net imem0 in module/entity ibex_dualcore_top_v3 does not have driver. [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_dualcore_top_v3.sv:235]
+WARNING: [Synth 8-3848] Net imem1 in module/entity ibex_dualcore_top_v3 does not have driver. [E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.srcs/sources_1/imports/DoAn1/ibex_dualcore_top_v3.sv:251]
+WARNING: [Synth 8-7129] Port m_req_addr_i[0][31] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[0][30] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[0][29] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[0][28] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[0][27] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[0][26] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[0][25] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[0][24] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[0][23] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[0][22] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[0][21] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[0][20] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[0][19] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[0][18] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[0][17] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[0][16] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[0][15] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[0][14] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[0][13] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[0][12] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[1][31] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[1][30] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[1][29] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[1][28] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[1][27] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[1][26] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[1][25] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[1][24] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[1][23] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[1][22] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[1][21] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[1][20] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[1][19] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[1][18] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[1][17] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[1][16] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[1][15] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[1][14] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[1][13] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_req_addr_i[1][12] in module ibex_cache_bank_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port boot_addr_i[7] in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port boot_addr_i[6] in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port boot_addr_i[5] in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port boot_addr_i[4] in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port boot_addr_i[3] in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port boot_addr_i[2] in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port boot_addr_i[1] in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port boot_addr_i[0] in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ic_scr_key_valid_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr_ret_compressed_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr_ret_compressed_spec_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port iside_wait_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port jump_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port branch_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port branch_taken_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_load_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_store_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dside_wait_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mul_wait_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port div_wait_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_i in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst_ni in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr_type_wb_i[1] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr_type_wb_i[0] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[31] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[30] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[29] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[28] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[27] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[26] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[25] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[24] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[23] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[22] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[21] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[20] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[19] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[18] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[17] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[16] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[15] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[14] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[13] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[12] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[11] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[10] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[9] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[8] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[7] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[6] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[5] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[4] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[3] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[2] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[1] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[0] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][31] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][30] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][29] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][28] in module ibex_alu is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1608.199 ; gain = 1068.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1608.199 ; gain = 1068.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1608.199 ; gain = 1068.652
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'gen_mult_fast.mult_state_q_reg' in module 'ibex_multdiv_fast'
+INFO: [Synth 8-802] inferred FSM for state register 'md_state_q_reg' in module 'ibex_multdiv_fast'
+INFO: [Synth 8-802] inferred FSM for state register 'ls_fsm_cs_reg' in module 'ibex_load_store_unit'
+INFO: [Synth 8-802] inferred FSM for state register 'st_q_reg' in module 'ibex_directory_controller'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 MD_IDLE |                              000 |                              000
+                MD_ABS_A |                              001 |                              001
+                MD_ABS_B |                              010 |                              010
+                 MD_COMP |                              011 |                              011
+                 MD_LAST |                              100 |                              100
+          MD_CHANGE_SIGN |                              101 |                              101
+               MD_FINISH |                              110 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'md_state_q_reg' using encoding 'sequential' in module 'ibex_multdiv_fast'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ALBL |                               00 |                               00
+                    ALBH |                               01 |                               01
+                    AHBL |                               10 |                               10
+                    AHBH |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_mult_fast.mult_state_q_reg' using encoding 'sequential' in module 'ibex_multdiv_fast'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              000 |                              000
+            WAIT_GNT_MIS |                              001 |                              001
+         WAIT_RVALID_MIS |                              010 |                              010
+WAIT_RVALID_MIS_GNTS_DONE |                              011 |                              100
+                WAIT_GNT |                              100 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'ls_fsm_cs_reg' using encoding 'sequential' in module 'ibex_load_store_unit'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  D_IDLE |                            00001 |                              000
+                   D_FWD |                            10000 |                              001
+                D_RECALL |                            01000 |                              010
+                   D_INV |                            00100 |                              011
+                  D_RESP |                            00010 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'st_q_reg' using encoding 'one-hot' in module 'ibex_directory_controller'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:55 ; elapsed = 00:01:01 . Memory (MB): peak = 2268.738 ; gain = 1729.191
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   64 Bit       Adders := 4     
+	   2 Input   34 Bit       Adders := 2     
+	   2 Input   32 Bit       Adders := 4     
+	   2 Input    5 Bit       Adders := 4     
+	   2 Input    1 Bit       Adders := 6     
++---XORs : 
+	   2 Input     33 Bit         XORs := 2     
+	   2 Input     32 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 8     
++---Registers : 
+	              128 Bit    Registers := 292   
+	               64 Bit    Registers := 4     
+	               34 Bit    Registers := 4     
+	               32 Bit    Registers := 113   
+	               31 Bit    Registers := 2     
+	               24 Bit    Registers := 34    
+	               18 Bit    Registers := 2     
+	               16 Bit    Registers := 2     
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 4     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 10    
+	                3 Bit    Registers := 13    
+	                2 Bit    Registers := 557   
+	                1 Bit    Registers := 67    
++---Muxes : 
+	   4 Input  128 Bit        Muxes := 2     
+	   2 Input  128 Bit        Muxes := 326   
+	   3 Input   64 Bit        Muxes := 4     
+	   2 Input   64 Bit        Muxes := 10    
+	   2 Input   34 Bit        Muxes := 18    
+	   7 Input   34 Bit        Muxes := 2     
+	   4 Input   34 Bit        Muxes := 4     
+	   2 Input   33 Bit        Muxes := 4     
+	   7 Input   33 Bit        Muxes := 4     
+	   3 Input   33 Bit        Muxes := 2     
+	   2 Input   32 Bit        Muxes := 99    
+	   3 Input   32 Bit        Muxes := 8     
+	   4 Input   32 Bit        Muxes := 30    
+	  11 Input   32 Bit        Muxes := 2     
+	   7 Input   32 Bit        Muxes := 4     
+	   4 Input   16 Bit        Muxes := 4     
+	   2 Input   12 Bit        Muxes := 5     
+	   2 Input    8 Bit        Muxes := 24    
+	   8 Input    6 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 14    
+	  11 Input    5 Bit        Muxes := 2     
+	   5 Input    5 Bit        Muxes := 3     
+	   7 Input    5 Bit        Muxes := 2     
+	   4 Input    5 Bit        Muxes := 3     
+	   3 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 24    
+	   6 Input    4 Bit        Muxes := 2     
+	   7 Input    4 Bit        Muxes := 2     
+	   4 Input    4 Bit        Muxes := 2     
+	   5 Input    4 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 66    
+	   3 Input    3 Bit        Muxes := 2     
+	  11 Input    3 Bit        Muxes := 2     
+	   4 Input    3 Bit        Muxes := 8     
+	   5 Input    3 Bit        Muxes := 8     
+	   7 Input    3 Bit        Muxes := 2     
+	   8 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 2469  
+	   4 Input    2 Bit        Muxes := 108   
+	  11 Input    2 Bit        Muxes := 2     
+	   3 Input    2 Bit        Muxes := 2     
+	   7 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 4613  
+	   7 Input    1 Bit        Muxes := 16    
+	   5 Input    1 Bit        Muxes := 32    
+	   4 Input    1 Bit        Muxes := 596   
+	   3 Input    1 Bit        Muxes := 6     
+	   6 Input    1 Bit        Muxes := 18    
+	  11 Input    1 Bit        Muxes := 36    
+	   8 Input    1 Bit        Muxes := 2     
+	  13 Input    1 Bit        Muxes := 2     
+	   9 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "mcountinhibit_we" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dbg_csr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mstatus_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dcsr_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mie_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mscratch_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mepc_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mcause_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mtval_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "depc_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dscratch0_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dscratch1_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpuctrlsts_part_we" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mcountinhibit_we" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dbg_csr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mstatus_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dcsr_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mie_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mscratch_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mepc_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mcause_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mtval_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "depc_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dscratch0_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dscratch1_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpuctrlsts_part_we" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "rf_ren_b_o" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "mult_sel_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "div_sel_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_req_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_we_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "branch_in_dec_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "rf_ren_b_o" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "mult_sel_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "div_sel_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_req_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_we_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "branch_in_dec_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mfip_id" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mfip_id" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP mac_res_signed, operation Mode is: C+A*B.
+DSP Report: operator mac_res_signed is absorbed into DSP mac_res_signed.
+DSP Report: operator mac_res_signed0 is absorbed into DSP mac_res_signed.
+INFO: [Synth 8-5546] ROM "dbg_csr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mcountinhibit_we" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mstatus_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dcsr_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mie_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mscratch_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mepc_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mcause_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mtval_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "depc_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dscratch0_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dscratch1_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpuctrlsts_part_we" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dbg_csr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mcountinhibit_we" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mstatus_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dcsr_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mie_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mscratch_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mepc_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mcause_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mtval_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "depc_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dscratch0_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dscratch1_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpuctrlsts_part_we" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3917] design ibex_top has port data_wdata_intg_o[6] driven by constant 0
+WARNING: [Synth 8-3917] design ibex_top has port data_wdata_intg_o[5] driven by constant 0
+WARNING: [Synth 8-3917] design ibex_top has port data_wdata_intg_o[4] driven by constant 0
+WARNING: [Synth 8-3917] design ibex_top has port data_wdata_intg_o[3] driven by constant 0
+WARNING: [Synth 8-3917] design ibex_top has port data_wdata_intg_o[2] driven by constant 0
+WARNING: [Synth 8-3917] design ibex_top has port data_wdata_intg_o[1] driven by constant 0
+WARNING: [Synth 8-3917] design ibex_top has port data_wdata_intg_o[0] driven by constant 0
+WARNING: [Synth 8-3917] design ibex_top has port scramble_req_o driven by constant 0
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u_ibex_core/cs_registers_i/\u_mtvec_csr/rdata_q_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_ibex_core/cs_registers_i/\mcountinhibit_q_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u_ibex_core/cs_registers_i/u_mtvec_csr/rdata_q_reg[1]' (FDCE) to 'u_ibex_core/cs_registers_i/u_mtvec_csr/rdata_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u_ibex_core/cs_registers_i/u_mtvec_csr/rdata_q_reg[4]' (FDCE) to 'u_ibex_core/cs_registers_i/u_mtvec_csr/rdata_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u_ibex_core/cs_registers_i/u_mtvec_csr/rdata_q_reg[5]' (FDCE) to 'u_ibex_core/cs_registers_i/u_mtvec_csr/rdata_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u_ibex_core/cs_registers_i/u_mtvec_csr/rdata_q_reg[6]' (FDCE) to 'u_ibex_core/cs_registers_i/u_mtvec_csr/rdata_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u_ibex_core/cs_registers_i/u_mtvec_csr/rdata_q_reg[7]' (FDCE) to 'u_ibex_core/cs_registers_i/u_mtvec_csr/rdata_q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_ibex_core/cs_registers_i/u_mtvec_csr/rdata_q_reg[3]' (FDCE) to 'u_ibex_core/cs_registers_i/u_mtvec_csr/rdata_q_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_ibex_core/cs_registers_i/\u_mtvec_csr/rdata_q_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_ibex_core/load_store_unit_i/pmp_err_q_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_ibex_core/if_stage_i/\g_instr_rdata_nr.pc_id_o_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_ibex_core/cs_registers_i/\u_depc_csr/rdata_q_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ret_q_reg[3] )
+INFO: [Synth 8-3886] merging instance 'pend_req_q_reg[0]' (FDCE) to 'req_we_q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pend_req_q_reg[1] )
+INFO: [Synth 8-3886] merging instance 'cur_addr_q_reg[4]' (FDCE) to 'cur_li_q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'cur_addr_q_reg[5]' (FDCE) to 'cur_li_q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cur_addr_q_reg[6]' (FDCE) to 'cur_li_q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'cur_addr_q_reg[7]' (FDCE) to 'cur_li_q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'cur_addr_q_reg[8]' (FDCE) to 'cur_li_q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'cur_addr_q_reg[9]' (FDCE) to 'cur_li_q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'cur_addr_q_reg[10]' (FDCE) to 'cur_li_q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'cur_addr_q_reg[11]' (FDCE) to 'cur_li_q_reg[7]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:03 ; elapsed = 00:03:27 . Memory (MB): peak = 2473.027 ; gain = 1933.480
+---------------------------------------------------------------------------------
+ Sort Area is ibex_top mac_res_signed_0 : 0 0 : 2365 2365 : Used 2 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name       | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|ibex_multdiv_fast | C+A*B       | 17     | 17     | 34     | -      | 34     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (gen_multdiv_fast.multdiv_i/FSM_sequential_md_state_q_reg[2]) is unused and will be removed from module ibex_ex_block.
+WARNING: [Synth 8-3332] Sequential element (gen_multdiv_fast.multdiv_i/FSM_sequential_md_state_q_reg[1]) is unused and will be removed from module ibex_ex_block.
+WARNING: [Synth 8-3332] Sequential element (gen_multdiv_fast.multdiv_i/FSM_sequential_md_state_q_reg[0]) is unused and will be removed from module ibex_ex_block.
+WARNING: [Synth 8-3332] Sequential element (gen_multdiv_fast.multdiv_i/FSM_sequential_gen_mult_fast.mult_state_q_reg[1]) is unused and will be removed from module ibex_ex_block.
+WARNING: [Synth 8-3332] Sequential element (gen_multdiv_fast.multdiv_i/FSM_sequential_gen_mult_fast.mult_state_q_reg[0]) is unused and will be removed from module ibex_ex_block.
+WARNING: [Synth 8-3332] Sequential element (gen_multdiv_fast.multdiv_i/FSM_sequential_md_state_q_reg[2]) is unused and will be removed from module ibex_ex_block__1.
+WARNING: [Synth 8-3332] Sequential element (gen_multdiv_fast.multdiv_i/FSM_sequential_md_state_q_reg[1]) is unused and will be removed from module ibex_ex_block__1.
+WARNING: [Synth 8-3332] Sequential element (gen_multdiv_fast.multdiv_i/FSM_sequential_md_state_q_reg[0]) is unused and will be removed from module ibex_ex_block__1.
+WARNING: [Synth 8-3332] Sequential element (gen_multdiv_fast.multdiv_i/FSM_sequential_gen_mult_fast.mult_state_q_reg[1]) is unused and will be removed from module ibex_ex_block__1.
+WARNING: [Synth 8-3332] Sequential element (gen_multdiv_fast.multdiv_i/FSM_sequential_gen_mult_fast.mult_state_q_reg[0]) is unused and will be removed from module ibex_ex_block__1.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:03:19 ; elapsed = 00:03:44 . Memory (MB): peak = 2473.027 ; gain = 1933.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (u_ibex_core/load_store_unit_i/FSM_sequential_ls_fsm_cs_reg[2]) is unused and will be removed from module ibex_top.
+WARNING: [Synth 8-3332] Sequential element (u_ibex_core/load_store_unit_i/FSM_sequential_ls_fsm_cs_reg[1]) is unused and will be removed from module ibex_top.
+WARNING: [Synth 8-3332] Sequential element (u_ibex_core/load_store_unit_i/FSM_sequential_ls_fsm_cs_reg[0]) is unused and will be removed from module ibex_top.
+WARNING: [Synth 8-3332] Sequential element (u_ibex_core/load_store_unit_i/FSM_sequential_ls_fsm_cs_reg[2]) is unused and will be removed from module ibex_top__1.
+WARNING: [Synth 8-3332] Sequential element (u_ibex_core/load_store_unit_i/FSM_sequential_ls_fsm_cs_reg[1]) is unused and will be removed from module ibex_top__1.
+WARNING: [Synth 8-3332] Sequential element (u_ibex_core/load_store_unit_i/FSM_sequential_ls_fsm_cs_reg[0]) is unused and will be removed from module ibex_top__1.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:03:23 ; elapsed = 00:03:48 . Memory (MB): peak = 2473.027 ; gain = 1933.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (u_coh/u_dir/FSM_onehot_st_q_reg[4]) is unused and will be removed from module ibex_dualcore_top_v3.
+WARNING: [Synth 8-3332] Sequential element (u_coh/u_dir/FSM_onehot_st_q_reg[1]) is unused and will be removed from module ibex_dualcore_top_v3.
+WARNING: [Synth 8-3332] Sequential element (u_coh/u_dir/FSM_onehot_st_q_reg[0]) is unused and will be removed from module ibex_dualcore_top_v3.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:28 ; elapsed = 00:03:53 . Memory (MB): peak = 2579.805 ; gain = 2040.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:28 ; elapsed = 00:03:53 . Memory (MB): peak = 2579.805 ; gain = 2040.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:28 ; elapsed = 00:03:53 . Memory (MB): peak = 2579.805 ; gain = 2040.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:28 ; elapsed = 00:03:53 . Memory (MB): peak = 2579.805 ; gain = 2040.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:28 ; elapsed = 00:03:53 . Memory (MB): peak = 2579.805 ; gain = 2040.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:28 ; elapsed = 00:03:53 . Memory (MB): peak = 2579.805 ; gain = 2040.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     3|
+|2     |CARRY4 |    34|
+|3     |LUT1   |     3|
+|4     |LUT2   |     8|
+|5     |LUT3   |    23|
+|6     |LUT4   |   124|
+|7     |LUT5   |    45|
+|8     |LUT6   |    62|
+|9     |FDCE   |   103|
+|10    |FDRE   |   124|
+|11    |IBUF   |     8|
+|12    |OBUF   |   330|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------------------------------------+----------------------------+------+
+|      |Instance                                        |Module                      |Cells |
++------+------------------------------------------------+----------------------------+------+
+|1     |top                                             |                            |   867|
+|2     |  u_core0                                       |ibex_top                    |   260|
+|3     |    u_ibex_core                                 |ibex_core_2                 |   257|
+|4     |      cs_registers_i                            |ibex_cs_registers_3         |    33|
+|5     |        u_cpuctrlsts_part_csr                   |ibex_csr__parameterized6_11 |     1|
+|6     |        u_mepc_csr                              |ibex_csr__parameterized0_12 |    31|
+|7     |        u_mtval_csr                             |ibex_csr__parameterized0_13 |     1|
+|8     |      ex_block_i                                |ibex_ex_block_4             |     9|
+|9     |        alu_i                                   |ibex_alu_10                 |     9|
+|10    |      id_stage_i                                |ibex_id_stage_5             |   135|
+|11    |        controller_i                            |ibex_controller_9           |   135|
+|12    |      if_stage_i                                |ibex_if_stage_6             |    80|
+|13    |        \gen_prefetch_buffer.prefetch_buffer_i  |ibex_prefetch_buffer_7      |    48|
+|14    |          fifo_i                                |ibex_fetch_fifo_8           |    42|
+|15    |  u_core1                                       |ibex_top_0                  |   264|
+|16    |    u_ibex_core                                 |ibex_core                   |   261|
+|17    |      cs_registers_i                            |ibex_cs_registers           |    35|
+|18    |        u_cpuctrlsts_part_csr                   |ibex_csr__parameterized6    |     1|
+|19    |        u_mepc_csr                              |ibex_csr__parameterized0    |    32|
+|20    |        u_mtval_csr                             |ibex_csr__parameterized0_1  |     1|
+|21    |        u_mtvec_csr                             |ibex_csr__parameterized3    |     1|
+|22    |      ex_block_i                                |ibex_ex_block               |     9|
+|23    |        alu_i                                   |ibex_alu                    |     9|
+|24    |      id_stage_i                                |ibex_id_stage               |   137|
+|25    |        controller_i                            |ibex_controller             |   137|
+|26    |      if_stage_i                                |ibex_if_stage               |    80|
+|27    |        \gen_prefetch_buffer.prefetch_buffer_i  |ibex_prefetch_buffer        |    48|
+|28    |          fifo_i                                |ibex_fetch_fifo             |    42|
++------+------------------------------------------------+----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:28 ; elapsed = 00:03:53 . Memory (MB): peak = 2579.805 ; gain = 2040.258
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 4 critical warnings and 1076 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:03:28 ; elapsed = 00:03:54 . Memory (MB): peak = 2579.805 ; gain = 2040.258
+Synthesis Optimization Complete : Time (s): cpu = 00:03:28 ; elapsed = 00:03:54 . Memory (MB): peak = 2579.805 ; gain = 2040.258
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2592.898 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 34 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2663.410 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 67329372
+INFO: [Common 17-83] Releasing license: Synthesis
+279 Infos, 232 Warnings, 4 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:30 ; elapsed = 00:03:58 . Memory (MB): peak = 2663.410 ; gain = 2128.809
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2663.410 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/DoAn1/ibex_dualcore_v3_manual/ibex_dualcore_v3_manual.runs/synth_1/ibex_dualcore_top_v3.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file ibex_dualcore_top_v3_utilization_synth.rpt -pb ibex_dualcore_top_v3_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 23 11:36:14 2026...
